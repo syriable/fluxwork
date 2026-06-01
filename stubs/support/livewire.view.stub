@@ -1,0 +1,5 @@
+<x-layouts.simple-page :livewire="$this">
+    <x-filament::section>
+        {{-- [quote] --}}
+    </x-filament::section>
+</x-layouts.simple-page>

@@ -1,0 +1,11 @@
+@import "../../../../vendor/filament/filament/resources/css/theme.css";
+@import "../../../../vendor/codewithdennis/filament-advanced-components/resources/css/index.css";
+@import "../../../../vendor/livewire/flux/dist/flux.css";
+
+@source '../../../../vendor/codewithdennis/filament-advanced-components/resources/views/filament/**/*';
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/**/*';
+@source '../../../../vendor/codewithdennis/filament-advanced-choice/resources/**/*.blade.php';
+@source '../../../../vendor/ralphjsmit/laravel-filament-activitylog/resources/**/*.blade.php';
+
+@custom-variant dark (&:where(.dark, .dark *));

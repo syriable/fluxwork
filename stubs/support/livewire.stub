@@ -1,0 +1,20 @@
+<?php
+
+declare(strict_types=1);
+
+namespace [namespace];
+
+use App\Support\Livewire\Page;
+
+final class [class] extends Page
+{
+    protected string $view = '[view]';
+
+    /** @var array<string, mixed> */
+    public array $data = [];
+
+    public function getTitle(): string
+    {
+        return '[class]';
+    }
+}
