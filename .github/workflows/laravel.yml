@@ -17,6 +17,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Copy .env
         run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+      - name: Add Flux license
+        run: composer config http-basic.composer.fluxui.dev "${{ secrets.FLUX_USERNAME }}" "${{ secrets.FLUX_LICENSE_KEY }}"
+      - name: Configure Composer authentication
+        run: |
+          composer config http-basic.packages.filamentphp.com "${{ secrets.COMPOSER_PACKAGES_FILAMENTPHP_USERNAME }}" "${{ secrets.COMPOSER_PACKAGES_FILAMENTPHP_PASSWORD }}"
+          composer config http-basic.filament-advanced-components.composer.sh "${{ secrets.COMPOSER_FILAMENT_ADVANCED_COMPONENTS_USERNAME }}" "${{ secrets.COMPOSER_FILAMENT_ADVANCED_COMPONENTS_PASSWORD }}"
+          composer config http-basic.satis.ralphjsmit.com "${{ secrets.COMPOSER_RALPHJSMIT_ACTIVITYLOG_USERNAME }}" "${{ secrets.COMPOSER_RALPHJSMIT_ACTIVITYLOG_PASSWORD }}"
+          composer config http-basic.satis.ralphjsmit.com "${{ secrets.COMPOSER_RALPHJSMIT_AUTO_TRANSLATOR_USERNAME }}" "${{ secrets.COMPOSER_RALPHJSMIT_AUTO_TRANSLATOR_PASSWORD }}"
       - name: Install Dependencies
         run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
       - name: Generate key
