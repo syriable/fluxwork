@@ -4,8 +4,99 @@
 
 @source '../../../../vendor/codewithdennis/filament-advanced-components/resources/views/filament/**/*';
 @source '../../../../app/Filament/**/*';
+@source '../../../../app/Livewire/**/*';
 @source '../../../../resources/views/**/*';
 @source '../../../../vendor/codewithdennis/filament-advanced-choice/resources/**/*.blade.php';
 @source '../../../../vendor/ralphjsmit/laravel-filament-activitylog/resources/**/*.blade.php';
 
 @custom-variant dark (&:where(.dark, .dark *));
+@border-color-dark dark (&:where(.dark, .dark *));
+
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+
+    @variant dark {
+        *,
+        ::after,
+        ::before,
+        ::backdrop,
+        ::file-selector-button {
+            border-color: var(--color-gray-700, currentColor);
+        }
+    }
+}
+
+@layer utilities {
+    .fi-sidebar-nav-groups {
+        row-gap: calc(var(--spacing) * 2.5) !important;
+    }
+    .icon-start > svg {
+        position: absolute !important;
+        inset-inline-start: 0.5rem !important;
+    }
+    .icon-end > svg {
+        position: absolute !important;
+        inset-inline-end: 0.5rem !important;
+    }
+    /* Horizontal Scroll Navigation Styles */
+    .scrollbar-hide {
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+    }
+    .icon-start > svg {
+        position: absolute !important;
+        inset-inline-start: 0.5rem !important;
+    }
+
+    /* Custom wizard button styling - targets the exact structure */
+    .wizard-full-width-buttons
+        .fi-sc-wizard-footer
+        [x-on\:click="requestNextStep()"] {
+        width: 100% !important;
+    }
+
+    .wizard-full-width-buttons
+        .fi-sc-wizard-footer
+        [x-on\:click="requestNextStep()"]
+        .fi-btn {
+        width: 100% !important;
+    }
+
+    .wizard-full-width-buttons
+        .fi-sc-wizard-footer
+        [x-bind\:class="{ 'fi-hidden': ! isLastStep() }"] {
+        width: 100% !important;
+    }
+
+    .wizard-full-width-buttons
+        .fi-sc-wizard-footer
+        [x-bind\:class="{ 'fi-hidden': ! isLastStep() }"]
+        .fi-btn {
+        width: 100% !important;
+    }
+
+    .wizard-full-width-buttons .fi-sc-wizard-footer [x-show="! isFirstStep()"] {
+        display: none !important;
+    }
+
+    /* Hide previous sibling of wizard actions */
+    .wizard-full-width-buttons .fi-sc-wizard-footer [x-show="isFirstStep()"] {
+        display: none !important;
+    }
+}
+
+@layer components {
+    .wrapper {
+        @apply mx-auto w-full max-w-350 px-4 sm:px-6 lg:px-8;
+    }
+}
