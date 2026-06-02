@@ -21,8 +21,6 @@ use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use RalphJSmit\Filament\Activitylog\FilamentActivitylog;
-use RalphJSmit\Filament\AutoTranslator\FilamentAutoTranslator;
 
 class DashboardPanelProvider extends PanelProvider
 {
@@ -65,8 +63,6 @@ class DashboardPanelProvider extends PanelProvider
             ])
             ->plugins([
                 FilamentShieldPlugin::make(),
-                FilamentActivitylog::make(),
-                FilamentAutoTranslator::make(),
             ]);
     }
 }
