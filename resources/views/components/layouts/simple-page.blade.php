@@ -8,7 +8,7 @@
     $widthKey = $resolvedWidth instanceof \BackedEnum ? $resolvedWidth->value : $resolvedWidth;
 @endphp
 
-<div {{ $attributes->class(['fire-simple-page']) }}>
+<div {{ $attributes->class(['fire-simple-page flex items-center min-h-screen']) }}>
     <div @class([
         'mx-auto w-full',
         match ($widthKey) {
