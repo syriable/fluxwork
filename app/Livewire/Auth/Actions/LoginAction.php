@@ -54,7 +54,7 @@ class LoginAction
     }
 
     /**
-     * @return array{email: string, password: string}
+     * @return array{email: string, password: string}|array{username: string, password: string}
      */
     private function credentials(LoginData $loginData): array
     {
