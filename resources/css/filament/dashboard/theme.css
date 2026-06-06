@@ -2,6 +2,7 @@
 @import "../../../../vendor/codewithdennis/filament-advanced-components/resources/css/index.css";
 @import "../../../../vendor/livewire/flux/dist/flux.css";
 
+@source '../../../../vendor/syriable/filament-activitylog/resources/**/*.blade.php';
 @source '../../../../vendor/codewithdennis/filament-advanced-components/resources/views/filament/**/*';
 @source '../../../../app/Filament/**/*';
 @source '../../../../app/Livewire/**/*';
