@@ -21,6 +21,8 @@ use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Syriable\Filament\Plugins\Activitylog\ActivitylogPlugin;
+use Syriable\Filament\Plugins\Translator\TranslatorPlugin;
 
 class DashboardPanelProvider extends PanelProvider
 {
@@ -63,6 +65,13 @@ class DashboardPanelProvider extends PanelProvider
             ])
             ->plugins([
                 FilamentShieldPlugin::make(),
+                ActivitylogPlugin::make(),
+                TranslatorPlugin::make()
+                    ->createMissingTranslationKeys()
+                    ->pathAliases([
+                        'App\\Livewire' => 'livewire',
+                        'Modules\\Users\\Filament\\Resources' => 'modules/users',
+                    ]),
             ]);
     }
 }
