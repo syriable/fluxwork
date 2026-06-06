@@ -7,10 +7,13 @@ namespace Modules\Users\Models;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Support\Carbon;
 use Modules\Users\Database\Factories\BuyerFactory;
 use Modules\Users\States\AccountState;
+use Spatie\Activitylog\LogOptions;
+use Spatie\Activitylog\Traits\LogsActivity;
 
 /**
  * @property AccountState $account_state
@@ -23,6 +26,16 @@ class Buyer extends User
 {
     /** @use HasFactory<BuyerFactory> */
     use HasFactory;
+
+    use LogsActivity;
+
+    public function getActivitylogOptions(): LogOptions
+    {
+        return LogOptions::defaults()
+            ->logAll()
+            ->logOnlyDirty()
+            ->dontSubmitEmptyLogs();
+    }
 
     /**
      * Get the attributes that should be cast.
@@ -39,5 +52,12 @@ class Buyer extends User
             'suspended_at' => 'datetime',
             'last_login_at' => 'datetime',
         ];
+    }
+
+    public function name(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->display_name,
+        );
     }
 }
