@@ -28,6 +28,7 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\Rules\Password;
 use Livewire\Blaze\Blaze;
+use Syriable\Filament\Plugins\Translator\ConventionRegistry;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -63,7 +64,12 @@ class AppServiceProvider extends ServiceProvider
             );
         });
 
-        Blaze::optimize()->in(resource_path('views/components'));
+        app(ConventionRegistry::class)->registerDefaults();
+        // Layout components must not be Blaze-compiled: they provide Livewire's required
+        // root HTML tag and call Filament helpers. Compiling them causes RootTagMissingFromViewException.
+        Blaze::optimize()
+            ->in(resource_path('views/components'))
+            ->in(resource_path('views/components/layouts'), compile: false);
         $this->configureDates();
         $this->configureModels();
         $this->configureCommands();
