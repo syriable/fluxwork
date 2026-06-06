@@ -28,7 +28,7 @@
         {{ $slot }}
     </div>
 
-    @if (!$this instanceof \Filament\Tables\Contracts\HasTable)
+    @if (! ($livewire instanceof \Filament\Tables\Contracts\HasTable))
         <x-filament-actions::modals />
     @endif
 
