@@ -79,8 +79,13 @@ class Separator extends Component
         return $this->evaluate($this->text);
     }
 
-    public static function make(): static
+    public static function make(string $name): static
     {
-        return app(static::class);
+        $static = app(static::class);
+
+        $static->key($name);
+        $static->configure();
+
+        return $static;
     }
 }
