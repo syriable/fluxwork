@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1780342312,
+	'lastFullAnalysisTime' => 1780426589,
 	'meta' => array (
   'cacheVersion' => 'v12-linesToIgnore',
   'phpstanVersion' => '2.2.1',
@@ -26,7 +26,7 @@ return [
   ),
   'composerLocks' => 
   array (
-    '/Users/ghiath/Desktop/sites/fluxwork/composer.lock' => 'b9994d66b9d008b940a0cb4943e03deb65b3db1faa27bb22f37c71eb87513efe',
+    '/Users/ghiath/Desktop/sites/fluxwork/composer.lock' => 'cc84cc8390ba457980b8745c5d2511d4bcde5d635fec3f563c3f5adfcf1b66c3',
   ),
   'composerInstalled' => 
   array (
@@ -648,9 +648,9 @@ return [
         ),
         'guzzlehttp/guzzle' => 
         array (
-          'pretty_version' => '7.10.5',
-          'version' => '7.10.5.0',
-          'reference' => '7c8d84b39e680315f687e8662a9d6fb0865c5148',
+          'pretty_version' => '7.11.0',
+          'version' => '7.11.0.0',
+          'reference' => 'c987f8ce84b8434fa430795eca0f3430663da72b',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../guzzlehttp/guzzle',
           'aliases' => 
@@ -660,9 +660,9 @@ return [
         ),
         'guzzlehttp/promises' => 
         array (
-          'pretty_version' => '2.4.1',
-          'version' => '2.4.1.0',
-          'reference' => '09e8a212562fb1fb6a512c4156ed71525969d6c2',
+          'pretty_version' => '2.5.0',
+          'version' => '2.5.0.0',
+          'reference' => '4360e982f87f5f258bf872d094647791db2f4c8e',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../guzzlehttp/promises',
           'aliases' => 
@@ -672,9 +672,9 @@ return [
         ),
         'guzzlehttp/psr7' => 
         array (
-          'pretty_version' => '2.10.4',
-          'version' => '2.10.4.0',
-          'reference' => 'd2a1a094e396da8957e797489fddaf860c340cfc',
+          'pretty_version' => '2.11.0',
+          'version' => '2.11.0.0',
+          'reference' => 'bbb5e61349fa5cb822b3e87842b951088b76b81f',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../guzzlehttp/psr7',
           'aliases' => 
@@ -1376,9 +1376,9 @@ return [
         ),
         'livewire/livewire' => 
         array (
-          'pretty_version' => 'v4.3.0',
-          'version' => '4.3.0.0',
-          'reference' => '19ebb1ee4d057debceccf70ff01950e6a6114edc',
+          'pretty_version' => 'v4.3.1',
+          'version' => '4.3.1.0',
+          'reference' => '6a9dd03f45a4b200abfd0ff644745b23fa7baaaa',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../livewire/livewire',
           'aliases' => 
@@ -1632,9 +1632,9 @@ return [
         ),
         'orchestra/testbench-core' => 
         array (
-          'pretty_version' => 'v11.3.3',
-          'version' => '11.3.3.0',
-          'reference' => '8b85d7754a08b4ff88fc65ab86edf81d70fd1e26',
+          'pretty_version' => 'v11.3.4',
+          'version' => '11.3.4.0',
+          'reference' => '527fe9941b8bdec2914d2a19048b0c40c6c5d87c',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../orchestra/testbench-core',
           'aliases' => 
@@ -1872,9 +1872,9 @@ return [
         ),
         'phpunit/php-code-coverage' => 
         array (
-          'pretty_version' => '12.5.6',
-          'version' => '12.5.6.0',
-          'reference' => '876099a072646c7745f673d7aeab5382c4439691',
+          'pretty_version' => '12.5.7',
+          'version' => '12.5.7.0',
+          'reference' => '186dab580576598076de6818596d12b61801880e',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../phpunit/php-code-coverage',
           'aliases' => 
@@ -2152,42 +2152,6 @@ return [
           ),
           'dev_requirement' => false,
         ),
-        'ralphjsmit/laravel-filament-activitylog' => 
-        array (
-          'pretty_version' => '2.2.2',
-          'version' => '2.2.2.0',
-          'reference' => '506767c8b94df641b8f16e8f3d6c973d43a0ae94',
-          'type' => 'library',
-          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../ralphjsmit/laravel-filament-activitylog',
-          'aliases' => 
-          array (
-          ),
-          'dev_requirement' => false,
-        ),
-        'ralphjsmit/laravel-filament-auto-translator' => 
-        array (
-          'pretty_version' => '2.2.0',
-          'version' => '2.2.0.0',
-          'reference' => '645d56df49750d360e787d9346a1313e96659c89',
-          'type' => 'library',
-          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../ralphjsmit/laravel-filament-auto-translator',
-          'aliases' => 
-          array (
-          ),
-          'dev_requirement' => false,
-        ),
-        'ralphjsmit/packages' => 
-        array (
-          'pretty_version' => '1.4.2',
-          'version' => '1.4.2.0',
-          'reference' => '69650da1603c282ee71bfac969293e3faca36e3f',
-          'type' => 'composer-plugin',
-          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../ralphjsmit/packages',
-          'aliases' => 
-          array (
-          ),
-          'dev_requirement' => false,
-        ),
         'ramsey/collection' => 
         array (
           'pretty_version' => '2.1.1',
@@ -2342,9 +2306,9 @@ return [
         ),
         'sebastian/global-state' => 
         array (
-          'pretty_version' => '8.0.2',
-          'version' => '8.0.2.0',
-          'reference' => 'ef1377171613d09edd25b7816f05be8313f9115d',
+          'pretty_version' => '8.0.3',
+          'version' => '8.0.3.0',
+          'reference' => 'b164d3274d6537ab462591c5755f76a8f5b1aae9',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../sebastian/global-state',
           'aliases' => 
@@ -2520,18 +2484,6 @@ return [
           ),
           'dev_requirement' => false,
         ),
-        'spatie/laravel-activitylog' => 
-        array (
-          'pretty_version' => '4.12.3',
-          'version' => '4.12.3.0',
-          'reference' => '2a2024fcac05628b0d1bfdbb1b94dda8b0661dc0',
-          'type' => 'library',
-          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../spatie/laravel-activitylog',
-          'aliases' => 
-          array (
-          ),
-          'dev_requirement' => false,
-        ),
         'spatie/laravel-collection-macros' => 
         array (
           'pretty_version' => '8.1.0',
@@ -2664,18 +2616,6 @@ return [
           ),
           'dev_requirement' => false,
         ),
-        'spatie/macroable' => 
-        array (
-          'pretty_version' => '2.1.0',
-          'version' => '2.1.0.0',
-          'reference' => '2967f69810ba4df158391665c0850010b9d1507c',
-          'type' => 'library',
-          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../spatie/macroable',
-          'aliases' => 
-          array (
-          ),
-          'dev_requirement' => false,
-        ),
         'spatie/once' => 
         array (
           'dev_requirement' => false,
@@ -2727,18 +2667,6 @@ return [
           'reference' => '662e481d6ec07ef29fd05010433428851a42cd07',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../spatie/temporary-directory',
-          'aliases' => 
-          array (
-          ),
-          'dev_requirement' => false,
-        ),
-        'spatie/url' => 
-        array (
-          'pretty_version' => '2.4.0',
-          'version' => '2.4.0.0',
-          'reference' => '93a51db743cdec22b081c64593e193887c9cd395',
-          'type' => 'library',
-          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../spatie/url',
           'aliases' => 
           array (
           ),
@@ -3473,6 +3401,72 @@ return [
 	'unmatchedLineIgnores' => array (
 ),
 	'collectedDataCallback' => static function (): array { return array (
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Actions/LoginAction.php' => 
+  array (
+    'Larastan\\Larastan\\Collectors\\UsedTranslationFunctionCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'filament-panels::auth/pages/login.messages.failed',
+        1 => 34,
+      ),
+      1 => 
+      array (
+        0 => 'filament-panels::auth/pages/login.notifications.throttled.title',
+        1 => 87,
+      ),
+      2 => 
+      array (
+        0 => 'filament-panels::auth/pages/login.notifications.throttled',
+        1 => 98,
+      ),
+      3 => 
+      array (
+        0 => 'filament-panels::auth/pages/login.notifications.throttled.body',
+        1 => 104,
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
+    array (
+      0 => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+    ),
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureFuncCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'event',
+        1 => 49,
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Illuminate\\Support\\Facades\\RateLimiter',
+        1 => 'hit',
+        2 => 31,
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Data/LoginData.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
+    array (
+      0 => 'App\\Livewire\\Auth\\Data\\LoginData',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Livewire\\Auth\\Login',
+        1 => 'getTitle',
+        2 => 'App\\Livewire\\Auth\\Login',
+      ),
+    ),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Models/User.php' => 
   array (
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
@@ -3574,42 +3568,42 @@ return [
         0 => 'Filament\\Panel',
         1 => 'discoverResources',
         2 => 'in',
-        3 => 42,
+        3 => 40,
       ),
       1 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverResources',
         2 => 'for',
-        3 => 42,
+        3 => 40,
       ),
       2 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverPages',
         2 => 'in',
-        3 => 43,
+        3 => 41,
       ),
       3 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverPages',
         2 => 'for',
-        3 => 43,
+        3 => 41,
       ),
       4 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverWidgets',
         2 => 'in',
-        3 => 47,
+        3 => 45,
       ),
       5 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverWidgets',
         2 => 'for',
-        3 => 47,
+        3 => 45,
       ),
     ),
   ),
@@ -4681,7 +4675,7 @@ return [
       array (
         0 => 'Illuminate\\Support\\Facades\\Route',
         1 => 'get',
-        2 => 7,
+        2 => 9,
       ),
     ),
   ),
@@ -4882,11 +4876,44 @@ return [
     array (
     ),
   ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Filament/Schemas/Components/Separator.php' => 
+  array (
+    'fileHash' => 'd9f1a660ff1bed3e64919f43b76aafc82000d6816bbf2a8c94300d5432113728',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php',
+    ),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Http/Controllers/Controller.php' => 
   array (
     'fileHash' => '09e5cac5a69959ccf23d756cda697b993df937c106655d124ff27ca5fe24a705',
     'dependentFiles' => 
     array (
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Actions/LoginAction.php' => 
+  array (
+    'fileHash' => '2f2c3aca440c0ac41fa2f8eb433b51a173329a3f0a82022402f81f16031722c8',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Data/LoginData.php' => 
+  array (
+    'fileHash' => '6c734a7707a97855171a4617e2433dbfcf8dcc14c53144c1d07b507e2bc4c89f',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Actions/LoginAction.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php' => 
+  array (
+    'fileHash' => '8b4ab31c29205146b5be0a0751cf20f678ec460eee77dca123f94c19020370ed',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/routes/auth.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Models/User.php' => 
@@ -4920,7 +4947,7 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/Filament/DashboardPanelProvider.php' => 
   array (
-    'fileHash' => '31e673c976d8762ba9150e0d84eeec95c591b46f7540987cddb056b581823fd1',
+    'fileHash' => '8f7b157cf4fc9792d6005ea33bc30417ec72a096a23ba914977c9774bba215fe',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/services.php',
@@ -4970,7 +4997,9 @@ return [
     'fileHash' => '4cb5cb0f38ac9b39f37135ea50291c77ef7b6d973225114bcf6b412bb0c43ad3',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Livewire/Page.php',
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Livewire/Page.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/routes/auth.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Livewire/Contracts/Modal.php' => 
@@ -4985,6 +5014,8 @@ return [
     'fileHash' => 'bb53fed1f4840394cbbdf12396ecdeb4d5056e7917abfe5fa0607dcc53d80a7b',
     'dependentFiles' => 
     array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/routes/auth.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Support/ModularCanvas/Commands/CastMakeCommand.php' => 
@@ -5351,14 +5382,14 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/packages.php' => 
   array (
-    'fileHash' => 'cd78ef6799f3b37cbdb86422bde8e565840179fec0e98de7798b9ba9f8cfea70',
+    'fileHash' => '4204536db3de980ad535f5b954df7efcd4fd80168300acfad9312fb43df1005f',
     'dependentFiles' => 
     array (
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/services.php' => 
   array (
-    'fileHash' => 'afc748e745f76794e3175237c24bb719d16913d039ff720a77956cb1fa64f381',
+    'fileHash' => '25241a6d0675e4e08642aba6d27d0de17c6769abc2283443e769ae3f1125269a',
     'dependentFiles' => 
     array (
     ),
@@ -5706,6 +5737,13 @@ return [
       14 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
     ),
   ),
+  '/Users/ghiath/Desktop/sites/fluxwork/routes/auth.php' => 
+  array (
+    'fileHash' => '2862ec7fe13297da1600ca73bf21674a9d7faba4448adcaa21e3cd297fe19673',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/routes/console.php' => 
   array (
     'fileHash' => '9adccc33e7dd400683e434774077c7fdb2f299c5712cedf16a43fdf56f2850fa',
@@ -5715,7 +5753,7 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/routes/web.php' => 
   array (
-    'fileHash' => 'd39d2da6792b8ecddd2074d884bdb9a9b8970890bff8ed971ff7221fd39cdc8d',
+    'fileHash' => 'd897225e07fdb5bd039672306a767f78172eee3264fddad33e9980a2f459fa62',
     'dependentFiles' => 
     array (
     ),
@@ -5929,6 +5967,445 @@ return [
       ),
     )),
   ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Filament/Schemas/Components/Separator.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Filament\\Schemas\\Components\\Separator',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Filament\\Schemas\\Components\\Component',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'view',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'orientation',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'Closure|null|string',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'vertical',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'Closure|bool|null',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'variant',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'Closure|null|string',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'faint',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'Closure|bool|null',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'text',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'Closure|null|string',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'orientation',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'static',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'orientation',
+               'type' => 'Closure|string|null',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'vertical',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'static',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'vertical',
+               'type' => 'Closure|bool|null',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        8 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'variant',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'static',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'variant',
+               'type' => 'Closure|string|null',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        9 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'faint',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'static',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'faint',
+               'type' => 'Closure|bool|null',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        10 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'text',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'static',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'text',
+               'type' => 'Closure|string|null',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        11 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getOrientation',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        12 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getVertical',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?bool',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        13 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getVariant',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        14 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getFaint',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?bool',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        15 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getText',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        16 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'make',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'static',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Http/Controllers/Controller.php' => 
   array (
     0 => 
@@ -5949,6 +6426,499 @@ return [
       ),
        'statements' => 
       array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Actions/LoginAction.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'request',
+               'type' => 'Illuminate\\Http\\Request',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 68,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'handle',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'loginData',
+               'type' => 'App\\Livewire\\Auth\\Data\\LoginData',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Data/LoginData.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Livewire\\Auth\\Data\\LoginData',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Spatie\\LaravelData\\Data',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'email',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+                0 => 
+                \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+                   'name' => 'Spatie\\LaravelData\\Attributes\\Validation\\Email',
+                   'args' => 
+                  array (
+                  ),
+                )),
+              ),
+               'phpDoc' => NULL,
+               'flags' => 1,
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'password',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 1,
+            )),
+            2 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'remember',
+               'type' => 'bool',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 1,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Livewire\\Auth\\Login',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * @property-read Schema $form
+ */',
+         'namespace' => 'App\\Livewire\\Auth',
+         'uses' => 
+        array (
+          'separator' => 'App\\Filament\\Schemas\\Components\\Separator',
+          'loginaction' => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+          'logindata' => 'App\\Livewire\\Auth\\Data\\LoginData',
+          'page' => 'App\\Support\\Livewire\\Page',
+          'action' => 'Filament\\Actions\\Action',
+          'checkbox' => 'Filament\\Forms\\Components\\Checkbox',
+          'textinput' => 'Filament\\Forms\\Components\\TextInput',
+          'actions' => 'Filament\\Schemas\\Components\\Actions',
+          'component' => 'Filament\\Schemas\\Components\\Component',
+          'embeddedschema' => 'Filament\\Schemas\\Components\\EmbeddedSchema',
+          'flex' => 'Filament\\Schemas\\Components\\Flex',
+          'form' => 'Filament\\Schemas\\Components\\Form',
+          'section' => 'Filament\\Schemas\\Components\\Section',
+          'schema' => 'Filament\\Schemas\\Schema',
+          'color' => 'Filament\\Support\\Colors\\Color',
+          'alignment' => 'Filament\\Support\\Enums\\Alignment',
+          'width' => 'Filament\\Support\\Enums\\Width',
+          'redirectresponse' => 'Illuminate\\Http\\RedirectResponse',
+          'auth' => 'Illuminate\\Support\\Facades\\Auth',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'App\\Support\\Livewire\\Page',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'view',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'maxContentWidth',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'Filament\\Support\\Enums\\Width|string|null',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'data',
+          ),
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @var array<string, mixed> */',
+             'namespace' => 'App\\Livewire\\Auth',
+             'uses' => 
+            array (
+              'separator' => 'App\\Filament\\Schemas\\Components\\Separator',
+              'loginaction' => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+              'logindata' => 'App\\Livewire\\Auth\\Data\\LoginData',
+              'page' => 'App\\Support\\Livewire\\Page',
+              'action' => 'Filament\\Actions\\Action',
+              'checkbox' => 'Filament\\Forms\\Components\\Checkbox',
+              'textinput' => 'Filament\\Forms\\Components\\TextInput',
+              'actions' => 'Filament\\Schemas\\Components\\Actions',
+              'component' => 'Filament\\Schemas\\Components\\Component',
+              'embeddedschema' => 'Filament\\Schemas\\Components\\EmbeddedSchema',
+              'flex' => 'Filament\\Schemas\\Components\\Flex',
+              'form' => 'Filament\\Schemas\\Components\\Form',
+              'section' => 'Filament\\Schemas\\Components\\Section',
+              'schema' => 'Filament\\Schemas\\Schema',
+              'color' => 'Filament\\Support\\Colors\\Color',
+              'alignment' => 'Filament\\Support\\Enums\\Alignment',
+              'width' => 'Filament\\Support\\Enums\\Width',
+              'redirectresponse' => 'Illuminate\\Http\\RedirectResponse',
+              'auth' => 'Illuminate\\Support\\Facades\\Auth',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => 'array',
+           'public' => true,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'mount',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getTitle',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'form',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Filament\\Schemas\\Schema',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'schema',
+               'type' => 'Filament\\Schemas\\Schema',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'content',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Filament\\Schemas\\Schema',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'schema',
+               'type' => 'Filament\\Schemas\\Schema',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getFormContentComponent',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Filament\\Schemas\\Components\\Component',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        8 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'authenticate',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?Illuminate\\Http\\RedirectResponse',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'loginAction',
+               'type' => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
       ),
        'attributes' => 
       array (
