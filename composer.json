@@ -30,6 +30,7 @@
         "spatie/laravel-model-states": "^2.14",
         "spatie/laravel-sluggable": "^4.0",
         "stripe/stripe-php": "^20.1",
+        "syriable/filament-utilities": "^0.1.0",
         "wire-elements/modal": "^3.0"
     },
     "require-dev": {
@@ -139,13 +140,6 @@
         {
             "type": "path",
             "url": "modules/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "packages/*",
             "options": {
                 "symlink": true
             }

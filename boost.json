@@ -25,6 +25,7 @@
         "modular",
         "blaze-optimize",
         "sluggable-development",
+        "filament-security-audit",
         "debug-using-debugbar",
         "spatie-javascript",
         "spatie-laravel-php",
