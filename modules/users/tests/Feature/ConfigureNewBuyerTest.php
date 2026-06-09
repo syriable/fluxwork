@@ -15,8 +15,9 @@ it('grants the buyer role when a buyer is created', function () {
     Mail::fake();
 
     $buyer = Buyer::factory()->create();
+    $buyer->refresh();
 
-    expect($buyer->fresh()->hasRole('buyer'))->toBeTrue();
+    expect($buyer->hasRole('buyer'))->toBeTrue();
 });
 
 it('sends the welcome email to the new buyer', function () {

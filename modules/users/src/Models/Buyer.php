@@ -57,11 +57,14 @@ class Buyer extends User
         ];
     }
 
+    /**
+     * @return Attribute<string, never>
+     */
     #[\Override]
     public function name(): Attribute
     {
         return Attribute::make(
-            get: fn () => $this->display_name,
+            get: fn (): string => $this->display_name,
         );
     }
 }

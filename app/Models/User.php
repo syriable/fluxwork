@@ -12,8 +12,18 @@ use Illuminate\Support\Facades\Auth;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\ModelStates\HasStates;
+use Spatie\Permission\Guard;
 use Spatie\Permission\Traits\HasRoles;
 
+/**
+ * @property string $username
+ * @property string $display_name
+ * @property string $email
+ * @property string|null $locale
+ * @property string $timezone
+ * @property-read string $name
+ * @property-read string $locale_time
+ */
 abstract class User extends Authenticatable implements HasMedia
 {
     use HasRoles;
@@ -45,22 +55,38 @@ abstract class User extends Authenticatable implements HasMedia
         return $this->locale ?? config('app.locale');
     }
 
+    /**
+     * @return Attribute<string, never>
+     */
     protected function localeTime(): Attribute
     {
         return Attribute::make(
-            get: fn (): string => now($this->timezone)->locale(Auth::user()?->locale)->format('M d, Y, h:i A'),
+            get: function (): string {
+                $authUser = Auth::user();
+                $locale = $authUser instanceof self && filled($authUser->locale)
+                    ? $authUser->locale
+                    : config('app.locale');
+
+                $date = now($this->timezone);
+                $date->locale($locale);
+
+                return $date->format('M d, Y, h:i A');
+            },
         );
     }
 
     public function getGuardName(): string
     {
-        return $this->guard_name;
+        return Guard::getDefaultName($this);
     }
 
+    /**
+     * @return Attribute<string, never>
+     */
     public function name(): Attribute
     {
         return Attribute::make(
-            get: fn (): string => blank($this->first_name) ? $this->username : sprintf('%s %s', $this->first_name, $this->last_name),
+            get: fn (): string => $this->display_name,
         );
     }
 }
