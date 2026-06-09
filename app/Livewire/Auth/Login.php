@@ -41,12 +41,6 @@ class Login extends Page
         $this->form->fill();
     }
 
-    #[\Override]
-    public function getTitle(): string
-    {
-        return 'Login';
-    }
-
     public function form(Schema $schema): Schema
     {
         return $schema
@@ -55,30 +49,24 @@ class Login extends Page
                     Action::make('facebook')
                         ->color(Color::generateV3Palette('#1877F2'))
                         ->icon('flux-facebook')
-                        ->label('Continue with Facebook')
                         ->extraAttributes(['class' => 'w-full icon-start']),
                     Action::make('google')
                         ->color('gray')
                         ->icon('flux-google')
-                        ->label('Continue with Google')
                         ->extraAttributes(['class' => 'w-full icon-start']),
                 ])
                     ->alignment(Alignment::Center),
-                Separator::make()
-                    ->text('OR'),
+                Separator::make('or'),
                 TextInput::make('email')
                     ->required()
-                    ->string()
                     ->autofocus(),
                 TextInput::make('password')
                     ->password()
                     ->required()
                     ->autocomplete('current-password'),
                 Flex::make([
-                    Checkbox::make('remember')
-                        ->label('Remember me'),
+                    Checkbox::make('remember'),
                     Action::make('forgot-password')
-                        ->label('Forgot password?')
                         ->link(),
                 ]),
             ]);
@@ -88,14 +76,13 @@ class Login extends Page
     {
         return $schema
             ->components([
-                Section::make('form')
-                    ->heading('Login to your account')
+                Section::make()
+                    ->key('login_form')
                     ->schema([
                         $this->getFormContentComponent(),
                     ])
                     ->footerActions([
                         Action::make('register')
-                            ->label("Don't have an account? Register here")
                             ->link()
                             ->extraAttributes(['class' => 'w-full mx-auto icon-start']),
                     ]),
@@ -110,7 +97,6 @@ class Login extends Page
             ->footer([
                 Actions::make([
                     Action::make('login')
-                        ->label('Login')
                         ->submit('authenticate'),
                 ])
                     ->alignment(Alignment::End)
