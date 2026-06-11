@@ -14,8 +14,6 @@ use Illuminate\Support\Carbon;
 use Modules\Users\Database\Factories\BuyerFactory;
 use Modules\Users\Observers\BuyerObserver;
 use Modules\Users\States\AccountState;
-use Spatie\Activitylog\Models\Concerns\LogsActivity;
-use Spatie\Activitylog\Support\LogOptions;
 
 /**
  * @property AccountState $account_state
@@ -29,16 +27,6 @@ class Buyer extends User
 {
     /** @use HasFactory<BuyerFactory> */
     use HasFactory;
-
-    use LogsActivity;
-
-    public function getActivitylogOptions(): LogOptions
-    {
-        return LogOptions::defaults()
-            ->logAll()
-            ->logOnlyDirty()
-            ->dontLogEmptyChanges();
-    }
 
     /**
      * Get the attributes that should be cast.
