@@ -20,8 +20,6 @@ class AdminResource extends TranslatableResource
 {
     protected static ?string $model = Admin::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
-
     protected static ?string $recordTitleAttribute = 'display_name';
 
     #[\Override]

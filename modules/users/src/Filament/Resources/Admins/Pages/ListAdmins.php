@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Modules\Users\Filament\Resources\Admins\Pages;
 
 use Filament\Actions\CreateAction;
-use Filament\Resources\Pages\ListRecords;
+use Syriable\Filament\Plugins\Translator\Filament\Resources\Resource\Pages\TranslatableListRecords;
 use Modules\Users\Filament\Resources\Admins\AdminResource;
 
-class ListAdmins extends ListRecords
+class ListAdmins extends TranslatableListRecords
 {
     protected static string $resource = AdminResource::class;
 

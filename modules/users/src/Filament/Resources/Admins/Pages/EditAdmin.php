@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Modules\Users\Filament\Resources\Admins\Pages;
 
 use Filament\Actions\DeleteAction;
-use Filament\Resources\Pages\EditRecord;
 use Modules\Users\Filament\Resources\Admins\AdminResource;
+use Syriable\Filament\Plugins\Translator\Filament\Resources\Resource\Pages\TranslatableEditRecord;
 
-class EditAdmin extends EditRecord
+class EditAdmin extends TranslatableEditRecord
 {
     protected static string $resource = AdminResource::class;
 

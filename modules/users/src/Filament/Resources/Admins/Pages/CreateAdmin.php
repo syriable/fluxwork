@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Users\Filament\Resources\Admins\Pages;
 
-use Filament\Resources\Pages\CreateRecord;
 use Modules\Users\Filament\Resources\Admins\AdminResource;
+use Syriable\Filament\Plugins\Translator\Filament\Resources\Resource\Pages\TranslatableCreateRecord;
 
-class CreateAdmin extends CreateRecord
+class CreateAdmin extends TranslatableCreateRecord
 {
     protected static string $resource = AdminResource::class;
 }
