@@ -9,6 +9,8 @@ use Illuminate\Database\Eloquent\Concerns\HasUlids;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Auth;
+use Spatie\Activitylog\Models\Concerns\LogsActivity;
+use Spatie\Activitylog\Support\LogOptions;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\ModelStates\HasStates;
@@ -30,7 +32,16 @@ abstract class User extends Authenticatable implements HasMedia
     use HasStates;
     use HasUlids;
     use InteractsWithMedia;
+    use LogsActivity;
     use Notifiable;
+
+    public function getActivitylogOptions(): LogOptions
+    {
+        return LogOptions::defaults()
+            ->logAll()
+            ->logOnlyDirty()
+            ->dontLogEmptyChanges();
+    }
 
     public function registerMediaCollections(): void
     {
@@ -39,7 +50,6 @@ abstract class User extends Authenticatable implements HasMedia
             ->singleFile();
     }
 
-    #[\Override]
     public function getRouteKeyName(): string
     {
         return 'username';
