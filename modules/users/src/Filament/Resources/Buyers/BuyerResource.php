@@ -20,8 +20,6 @@ class BuyerResource extends TranslatableResource
 {
     protected static ?string $model = Buyer::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
-
     protected static ?string $recordTitleAttribute = 'display_name';
 
     #[\Override]

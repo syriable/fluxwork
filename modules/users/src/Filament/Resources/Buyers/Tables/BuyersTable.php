@@ -38,8 +38,13 @@ class BuyersTable
                         })
                         ->causerNames([
                             null => 'System',
-                            Buyer::class => 'Buyer',
-                            Admin::class => 'Admin',
+                            Buyer::class => fn ($causer): string => $causer->name,
+                            Admin::class => fn ($causer): string => $causer->name,
+                        ])
+                        ->modelLabels([
+                            null => 'System',
+                            Buyer::class => BuyerResource::getModelLabel(),
+                            Admin::class => AdminResource::getModelLabel(),
                         ])
                     ),
             ])

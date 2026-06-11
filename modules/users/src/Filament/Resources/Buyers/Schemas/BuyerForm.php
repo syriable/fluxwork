@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Users\Filament\Resources\Buyers\Schemas;
 
-use Filament\Forms\Components\TextInput;
-use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 
 class BuyerForm
@@ -14,7 +12,7 @@ class BuyerForm
     {
         return $schema
             ->components([
-                // 
+                //
             ]);
     }
 }
