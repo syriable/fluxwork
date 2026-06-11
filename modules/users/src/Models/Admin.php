@@ -11,12 +11,15 @@ use Filament\Models\Contracts\HasName;
 use Filament\Panel;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Modules\Users\Database\Factories\AdminFactory;
+use Modules\Users\Observers\AdminObserver;
 use Modules\Users\States\AccountState;
 
 #[Fillable(['username', 'display_name', 'email', 'password', 'suspended_at', 'suspension_reason', 'last_login_at', 'last_login_ip'])]
 #[Hidden('password', 'remember_token')]
+#[ObservedBy(AdminObserver::class)]
 class Admin extends User implements FilamentUser, HasAvatar, HasName
 {
     /** @use HasFactory<AdminFactory> */
