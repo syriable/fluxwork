@@ -5,17 +5,17 @@ declare(strict_types=1);
 namespace Modules\Users\Jobs\Tasks;
 
 use Closure;
-use Modules\Users\Models\Buyer;
+use Illuminate\Database\Eloquent\Model;
 
 class Preparation
 {
-    public function handle(Buyer $buyer, Closure $next): mixed
+    public function handle(Model $model, Closure $next): mixed
     {
         activity('onboarding')
-            ->performedOn($buyer)
+            ->performedOn($model)
             ->event('preparation:started')
             ->log('preparation:started');
 
-        return $next($buyer);
+        return $next($model);
     }
 }
