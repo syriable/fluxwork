@@ -125,6 +125,10 @@ return [
         'path' => app_path('Policies'),
         'merge' => true,
         'generate' => true,
+        'central_path_segments' => [
+            'vendor',
+            'src',
+        ],
         'methods' => [
             'viewAny', 'view', 'create', 'update', 'delete', 'deleteAny', 'restore',
             'forceDelete', 'forceDeleteAny', 'restoreAny', 'replicate', 'reorder',

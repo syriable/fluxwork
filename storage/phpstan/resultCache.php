@@ -1,10 +1,10 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1780426589,
+	'lastFullAnalysisTime' => 1781014945,
 	'meta' => array (
   'cacheVersion' => 'v12-linesToIgnore',
-  'phpstanVersion' => '2.2.1',
+  'phpstanVersion' => '2.2.2',
   'fnsr' => false,
   'metaExtensions' => 
   array (
@@ -26,7 +26,7 @@ return [
   ),
   'composerLocks' => 
   array (
-    '/Users/ghiath/Desktop/sites/fluxwork/composer.lock' => 'cc84cc8390ba457980b8745c5d2511d4bcde5d635fec3f563c3f5adfcf1b66c3',
+    '/Users/ghiath/Desktop/sites/fluxwork/composer.lock' => 'c569b4c8b7d1b83a33d466a9525686fbd2d6c790e5654527d4ec798c545ef36e',
   ),
   'composerInstalled' => 
   array (
@@ -39,7 +39,7 @@ return [
           'dev_requirement' => true,
           'replaced' => 
           array (
-            0 => 'v4.2.8',
+            0 => 'v4.3.0',
           ),
         ),
         'bezhansalleh/filament-plugin-essentials' => 
@@ -212,9 +212,9 @@ return [
         ),
         'composer/composer' => 
         array (
-          'pretty_version' => '2.10.0',
-          'version' => '2.10.0.0',
-          'reference' => 'c13824d95608b15913a7c0def0a3dea4474b71fc',
+          'pretty_version' => '2.10.1',
+          'version' => '2.10.1.0',
+          'reference' => '4120703b9bda8795075047b40361d7ec4d2abe49',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/./composer',
           'aliases' => 
@@ -432,9 +432,9 @@ return [
         ),
         'filament/actions' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => 'eb0f973dd88864c3ea7be5e999bf420ccbd62e14',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => '4697f9e6dab1f023b2ea21b0e449c3fd204fb3d9',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/actions',
           'aliases' => 
@@ -444,8 +444,8 @@ return [
         ),
         'filament/blueprint' => 
         array (
-          'pretty_version' => 'v2.1.2',
-          'version' => '2.1.2.0',
+          'pretty_version' => 'v2.2.0',
+          'version' => '2.2.0.0',
           'reference' => NULL,
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/blueprint',
@@ -456,9 +456,9 @@ return [
         ),
         'filament/filament' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => 'fdb789aaa29ff418e0609927a683b099df2d5f55',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => '2b6bfa9888e0bcba8c2a7dfbdfe913cab72cfe6a',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/filament',
           'aliases' => 
@@ -468,9 +468,9 @@ return [
         ),
         'filament/forms' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => 'e4dc9e2add4b563822d1014e35c8e16bf812aa8d',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => 'f7b5e8701982408f84e1b12fcca75eadad47905b',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/forms',
           'aliases' => 
@@ -480,9 +480,9 @@ return [
         ),
         'filament/infolists' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => '37a2484d6c65b5908e6549302001161530a88c2c',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => '0b87686a37160bf7f8bccae1eedc733bbf928dc9',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/infolists',
           'aliases' => 
@@ -492,9 +492,9 @@ return [
         ),
         'filament/notifications' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => 'd4d1bef688dd85086229fcad6f1a157d47f6c336',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => '28ce63bf4e378a4e38efac7b1f0519a5fed4b352',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/notifications',
           'aliases' => 
@@ -504,8 +504,8 @@ return [
         ),
         'filament/query-builder' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
           'reference' => 'fb4b6cdebe6ab2c233cc78d3688a64f022263c56',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/query-builder',
@@ -516,9 +516,9 @@ return [
         ),
         'filament/schemas' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => '1b23f15af79252591fd72f17ad4bc536cc32d47b',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => 'c3ecdfe73a215927caaf7b28bc5ae2b3891e805b',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/schemas',
           'aliases' => 
@@ -528,8 +528,8 @@ return [
         ),
         'filament/spatie-laravel-media-library-plugin' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
           'reference' => '085dda340dd99dd350d9f8fd77015cd420d8b2d2',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/spatie-laravel-media-library-plugin',
@@ -540,8 +540,8 @@ return [
         ),
         'filament/spatie-laravel-settings-plugin' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
           'reference' => '533f5486b6c264d130a3de4c2d928586394aee73',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/spatie-laravel-settings-plugin',
@@ -552,8 +552,8 @@ return [
         ),
         'filament/spatie-laravel-tags-plugin' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
           'reference' => 'd9751f1ff695e5b54e8bee2bbb6264d06048a52d',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/spatie-laravel-tags-plugin',
@@ -564,9 +564,9 @@ return [
         ),
         'filament/support' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => '2d79214157790e89b35a00911a5d7fc5da647b87',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => 'caa2bf186de5b32a789d3c7167bc63db153386a1',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/support',
           'aliases' => 
@@ -576,9 +576,9 @@ return [
         ),
         'filament/tables' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => 'b67ef735bb000cf9e11bf9f71450e9faef2c5052',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => 'bb98022d73347eeb090976ae0730147289135ffb',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/tables',
           'aliases' => 
@@ -588,9 +588,9 @@ return [
         ),
         'filament/widgets' => 
         array (
-          'pretty_version' => 'v5.6.6',
-          'version' => '5.6.6.0',
-          'reference' => 'fdec7f94e32b1c43199221363382e47b8a6a9816',
+          'pretty_version' => 'v5.6.7',
+          'version' => '5.6.7.0',
+          'reference' => '8c6411e0331aab124ffdf6c49d1161b1ecfbc9bc',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../filament/widgets',
           'aliases' => 
@@ -612,9 +612,9 @@ return [
         ),
         'fruitcake/laravel-debugbar' => 
         array (
-          'pretty_version' => 'v4.2.8',
-          'version' => '4.2.8.0',
-          'reference' => '799d70c1101d3f8840dd76ff68ff6a78f9352905',
+          'pretty_version' => 'v4.3.0',
+          'version' => '4.3.0.0',
+          'reference' => '3d76ea8d78b82225b92789de65fc630c1cd8e80c',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../fruitcake/laravel-debugbar',
           'aliases' => 
@@ -648,9 +648,9 @@ return [
         ),
         'guzzlehttp/guzzle' => 
         array (
-          'pretty_version' => '7.11.0',
-          'version' => '7.11.0.0',
-          'reference' => 'c987f8ce84b8434fa430795eca0f3430663da72b',
+          'pretty_version' => '7.11.1',
+          'version' => '7.11.1.0',
+          'reference' => '5af96f374e0ab4ebd747b8310888c99d3adb0a8c',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../guzzlehttp/guzzle',
           'aliases' => 
@@ -723,7 +723,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/broadcasting' => 
@@ -731,7 +731,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/bus' => 
@@ -739,7 +739,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/cache' => 
@@ -747,7 +747,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/collections' => 
@@ -755,7 +755,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/concurrency' => 
@@ -763,7 +763,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/conditionable' => 
@@ -771,7 +771,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/config' => 
@@ -779,7 +779,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/console' => 
@@ -787,7 +787,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/container' => 
@@ -795,7 +795,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/contracts' => 
@@ -803,7 +803,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/cookie' => 
@@ -811,7 +811,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/database' => 
@@ -819,7 +819,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/encryption' => 
@@ -827,7 +827,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/events' => 
@@ -835,7 +835,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/filesystem' => 
@@ -843,7 +843,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/hashing' => 
@@ -851,7 +851,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/http' => 
@@ -859,7 +859,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/json-schema' => 
@@ -867,7 +867,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/log' => 
@@ -875,7 +875,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/macroable' => 
@@ -883,7 +883,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/mail' => 
@@ -891,7 +891,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/notifications' => 
@@ -899,7 +899,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/pagination' => 
@@ -907,7 +907,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/pipeline' => 
@@ -915,7 +915,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/process' => 
@@ -923,7 +923,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/queue' => 
@@ -931,7 +931,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/redis' => 
@@ -939,7 +939,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/reflection' => 
@@ -947,7 +947,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/routing' => 
@@ -955,7 +955,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/session' => 
@@ -963,7 +963,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/support' => 
@@ -971,7 +971,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/testing' => 
@@ -979,7 +979,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/translation' => 
@@ -987,7 +987,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/validation' => 
@@ -995,7 +995,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'illuminate/view' => 
@@ -1003,7 +1003,7 @@ return [
           'dev_requirement' => false,
           'replaced' => 
           array (
-            0 => 'v13.12.0',
+            0 => 'v13.14.0',
           ),
         ),
         'internachi/modular' => 
@@ -1056,9 +1056,9 @@ return [
         ),
         'justinrainbow/json-schema' => 
         array (
-          'pretty_version' => '6.8.2',
-          'version' => '6.8.2.0',
-          'reference' => '2c89ebb95ca9cedc9347f780333f7b25792dcb76',
+          'pretty_version' => '6.9.0',
+          'version' => '6.9.0.0',
+          'reference' => 'bd1bda2ebfc8bff418565941771ea8f03c557886',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../justinrainbow/json-schema',
           'aliases' => 
@@ -1112,9 +1112,9 @@ return [
         ),
         'laravel/boost' => 
         array (
-          'pretty_version' => 'v2.4.8',
-          'version' => '2.4.8.0',
-          'reference' => 'd11d720cf9537f8d236a11d973e99563a598ec9c',
+          'pretty_version' => 'v2.4.10',
+          'version' => '2.4.10.0',
+          'reference' => '080189f51c8d27c0792a03483a70adc7770f6eeb',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../laravel/boost',
           'aliases' => 
@@ -1124,9 +1124,9 @@ return [
         ),
         'laravel/framework' => 
         array (
-          'pretty_version' => 'v13.12.0',
-          'version' => '13.12.0.0',
-          'reference' => '6ac27a7fcfa728250c9f77921cb8fb955546b591',
+          'pretty_version' => 'v13.14.0',
+          'version' => '13.14.0.0',
+          'reference' => 'e60b1c817a9ef7da319e4007de6cfda5301a58c0',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../laravel/framework',
           'aliases' => 
@@ -1136,9 +1136,9 @@ return [
         ),
         'laravel/mcp' => 
         array (
-          'pretty_version' => 'v0.7.0',
-          'version' => '0.7.0.0',
-          'reference' => '3513b4feca5f1678be4d2261dcfa8e456436d02a',
+          'pretty_version' => 'v0.8.0',
+          'version' => '0.8.0.0',
+          'reference' => '18221a07093d84153883bc956e5e213999549a4b',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../laravel/mcp',
           'aliases' => 
@@ -1434,7 +1434,7 @@ return [
         array (
           'pretty_version' => '1.0',
           'version' => '1.0.0.0',
-          'reference' => 'ace03ab19fc421710a194234a44820efeaf92a6e',
+          'reference' => '43f340a11f8617556b57ff3970459950a5529178',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../modules/users',
           'aliases' => 
@@ -1860,9 +1860,9 @@ return [
         ),
         'phpstan/phpstan' => 
         array (
-          'pretty_version' => '2.2.1',
-          'version' => '2.2.1.0',
-          'reference' => 'dea9c8f2d25cc849391042b71e429c1a4bf82660',
+          'pretty_version' => '2.2.2',
+          'version' => '2.2.2.0',
+          'reference' => 'e5cc34d491a90e79c216d824f60fe21fd4d93bd6',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../phpstan/phpstan',
           'aliases' => 
@@ -2484,6 +2484,18 @@ return [
           ),
           'dev_requirement' => false,
         ),
+        'spatie/laravel-activitylog' => 
+        array (
+          'pretty_version' => '5.0.0',
+          'version' => '5.0.0.0',
+          'reference' => '0e00fe74fd071cc572a045459f6d4c9de33130bd',
+          'type' => 'library',
+          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../spatie/laravel-activitylog',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
         'spatie/laravel-collection-macros' => 
         array (
           'pretty_version' => '8.1.0',
@@ -2922,9 +2934,9 @@ return [
         ),
         'symfony/polyfill-mbstring' => 
         array (
-          'pretty_version' => 'v1.38.1',
-          'version' => '1.38.1.0',
-          'reference' => '14c5439eec4ccff081ac14eca2dc57feb2a66d92',
+          'pretty_version' => 'v1.38.2',
+          'version' => '1.38.2.0',
+          'reference' => 'd3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../symfony/polyfill-mbstring',
           'aliases' => 
@@ -2970,9 +2982,9 @@ return [
         ),
         'symfony/polyfill-php83' => 
         array (
-          'pretty_version' => 'v1.38.1',
-          'version' => '1.38.1.0',
-          'reference' => '8339098cae28673c15cce00d80734af0453054e2',
+          'pretty_version' => 'v1.38.2',
+          'version' => '1.38.2.0',
+          'reference' => '796a26abb75ce49f3a84433cd81bf1009d73d5f8',
           'type' => 'library',
           'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../symfony/polyfill-php83',
           'aliases' => 
@@ -3143,6 +3155,42 @@ return [
           array (
           ),
           'dev_requirement' => true,
+        ),
+        'syriable/filament-activitylog' => 
+        array (
+          'pretty_version' => '0.1.1',
+          'version' => '0.1.1.0',
+          'reference' => 'a8ef42fdbca91e831d13b12a935e457e9f5c56d4',
+          'type' => 'library',
+          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../syriable/filament-activitylog',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'syriable/filament-translator' => 
+        array (
+          'pretty_version' => '1.1.1',
+          'version' => '1.1.1.0',
+          'reference' => 'b797f85b70f3b71422ec3a4bc5e02e16be113b29',
+          'type' => 'library',
+          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../syriable/filament-translator',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'syriable/filament-utilities' => 
+        array (
+          'pretty_version' => '0.1.2',
+          'version' => '0.1.2.0',
+          'reference' => '0d0f94e32848998db075b3d412fcfc6ac5356799',
+          'type' => 'library',
+          'install_path' => '/Users/ghiath/Desktop/sites/fluxwork/vendor/composer/../syriable/filament-utilities',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
         ),
         'ta-tikoma/phpunit-architecture-test' => 
         array (
@@ -3332,71 +3380,8 @@ return [
 	'errorsCallback' => static function (): array { return array (
 ); },
 	'locallyIgnoredErrorsCallback' => static function (): array { return array (
-  '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php' => 
-  array (
-    0 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Call to an undefined method App\\Providers\\AppServiceProvider::extraAttributes().',
-       'file' => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
-       'line' => 126,
-       'canBeIgnored' => true,
-       'filePath' => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 126,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.notFound',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    1 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Call to an undefined method App\\Providers\\AppServiceProvider::evaluate().',
-       'file' => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
-       'line' => 130,
-       'canBeIgnored' => true,
-       'filePath' => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 130,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.notFound',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    2 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Call to an undefined method App\\Providers\\AppServiceProvider::extraAttributes().',
-       'file' => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
-       'line' => 135,
-       'canBeIgnored' => true,
-       'filePath' => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 135,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.notFound',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-  ),
 ); },
 	'linesToIgnore' => array (
-  '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php' => 
-  array (
-    '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php' => 
-    array (
-      126 => NULL,
-      130 => NULL,
-      135 => NULL,
-    ),
-  ),
 ),
 	'unmatchedLineIgnores' => array (
 ),
@@ -3428,7 +3413,35 @@ return [
     ),
     'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
     array (
-      0 => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+      0 => 
+      array (
+        0 => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+        1 => 'credentials',
+        2 => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+        3 => 
+        array (
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+        1 => 'rateLimitedNotificationBody',
+        2 => 'App\\Livewire\\Auth\\Actions\\LoginAction',
+        3 => 
+        array (
+          0 => 'f' . "\0" . '__',
+        ),
+      ),
     ),
     'PHPStan\\Rules\\DeadCode\\PossiblyPureFuncCallCollector' => 
     array (
@@ -3452,23 +3465,78 @@ return [
   array (
     'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
     array (
-      0 => 'App\\Livewire\\Auth\\Data\\LoginData',
-    ),
-  ),
-  '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php' => 
-  array (
-    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
-    array (
       0 => 
       array (
-        0 => 'App\\Livewire\\Auth\\Login',
-        1 => 'getTitle',
-        2 => 'App\\Livewire\\Auth\\Login',
+        0 => 'App\\Livewire\\Auth\\Data\\LoginData',
+        1 => 
+        array (
+        ),
       ),
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Models/User.php' => 
   array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Models\\User',
+        1 => 'getRouteKeyName',
+        2 => 'App\\Models\\User',
+        3 => 
+        array (
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'App\\Models\\User',
+        1 => 'welcomeNotificationKeyValue',
+        2 => 'App\\Models\\User',
+        3 => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        0 => 'App\\Models\\User',
+        1 => 'preferredLocale',
+        2 => 'App\\Models\\User',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+      3 => 
+      array (
+        0 => 'App\\Models\\User',
+        1 => 'localeTime',
+        2 => 'App\\Models\\User',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'illuminate\\database\\eloquent\\casts\\attribute' . "\0" . 'make',
+        ),
+      ),
+      4 => 
+      array (
+        0 => 'App\\Models\\User',
+        1 => 'getGuardName',
+        2 => 'App\\Models\\User',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'spatie\\permission\\guard' . "\0" . 'getdefaultname',
+        ),
+      ),
+      5 => 
+      array (
+        0 => 'App\\Models\\User',
+        1 => 'name',
+        2 => 'App\\Models\\User',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'illuminate\\database\\eloquent\\casts\\attribute' . "\0" . 'make',
+        ),
+      ),
+    ),
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
     array (
       0 => 
@@ -3495,67 +3563,35 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php' => 
   array (
-    'PHPStan\\Rules\\DeadCode\\PossiblyPureMethodCallCollector' => 
-    array (
-      0 => 
-      array (
-        0 => 
-        array (
-          0 => 'BladeUI\\Icons\\Factory',
-        ),
-        1 => 'add',
-        2 => 149,
-      ),
-    ),
     'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
     array (
       0 => 
       array (
         0 => 'Illuminate\\Support\\Facades\\Session',
         1 => 'extend',
-        2 => 55,
+        2 => 35,
       ),
       1 => 
       array (
         0 => 'Illuminate\\Support\\Facades\\Date',
         1 => 'use',
-        2 => 78,
+        2 => 63,
       ),
       2 => 
       array (
         0 => 'Illuminate\\Validation\\Rules\\Password',
         1 => 'defaults',
-        2 => 105,
+        2 => 90,
       ),
-      3 => 
+    ),
+    'PHPStan\\Rules\\Methods\\NamedArgumentParameterMethodCallsCollector' => 
+    array (
+      0 => 
       array (
-        0 => 'Filament\\Support\\Components\\Component',
-        1 => 'configureUsing',
-        2 => 111,
-      ),
-      4 => 
-      array (
-        0 => 'Filament\\Support\\Components\\Component',
-        1 => 'configureUsing',
-        2 => 112,
-      ),
-      5 => 
-      array (
-        0 => 'Filament\\Support\\Components\\Component',
-        1 => 'configureUsing',
-        2 => 113,
-      ),
-      6 => 
-      array (
-        0 => 'Filament\\Support\\Components\\Component',
-        1 => 'configureUsing',
-        2 => 114,
-      ),
-      7 => 
-      array (
-        0 => 'Filament\\Support\\Components\\Component',
-        1 => 'configureUsing',
-        2 => 115,
+        0 => 'Livewire\\Blaze\\Config',
+        1 => 'in',
+        2 => 'compile',
+        3 => 51,
       ),
     ),
   ),
@@ -3568,42 +3604,42 @@ return [
         0 => 'Filament\\Panel',
         1 => 'discoverResources',
         2 => 'in',
-        3 => 40,
+        3 => 41,
       ),
       1 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverResources',
         2 => 'for',
-        3 => 40,
+        3 => 41,
       ),
       2 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverPages',
         2 => 'in',
-        3 => 41,
+        3 => 42,
       ),
       3 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverPages',
         2 => 'for',
-        3 => 41,
+        3 => 42,
       ),
       4 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverWidgets',
         2 => 'in',
-        3 => 45,
+        3 => 46,
       ),
       5 => 
       array (
         0 => 'Filament\\Panel',
         1 => 'discoverWidgets',
         2 => 'for',
-        3 => 45,
+        3 => 46,
       ),
     ),
   ),
@@ -3641,8 +3677,87 @@ return [
       ),
     ),
   ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Actions/GenerateSlugAction.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Support\\Actions\\GenerateSlugAction',
+        1 => 'slugifySource',
+        2 => 'App\\Support\\Actions\\GenerateSlugAction',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'app\\support\\unicodeslug' . "\0" . 'make',
+        ),
+      ),
+    ),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Livewire/Component.php' => 
   array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Support\\Livewire\\Component',
+        1 => 'modalMaxWidth',
+        2 => 'App\\Support\\Livewire\\Component',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'App\\Support\\Livewire\\Component',
+        1 => 'closeModalOnClickAway',
+        2 => 'App\\Support\\Livewire\\Component',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+      2 => 
+      array (
+        0 => 'App\\Support\\Livewire\\Component',
+        1 => 'closeModalOnEscape',
+        2 => 'App\\Support\\Livewire\\Component',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+      3 => 
+      array (
+        0 => 'App\\Support\\Livewire\\Component',
+        1 => 'closeModalOnEscapeIsForceful',
+        2 => 'App\\Support\\Livewire\\Component',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+      4 => 
+      array (
+        0 => 'App\\Support\\Livewire\\Component',
+        1 => 'dispatchCloseEvent',
+        2 => 'App\\Support\\Livewire\\Component',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+      5 => 
+      array (
+        0 => 'App\\Support\\Livewire\\Component',
+        1 => 'destroyOnClose',
+        2 => 'App\\Support\\Livewire\\Component',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+    ),
     'PHPStan\\Rules\\Methods\\NamedArgumentParameterMethodCallsCollector' => 
     array (
       0 => 
@@ -3665,6 +3780,16 @@ return [
         1 => 'dispatch',
         2 => 'params',
         3 => 63,
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Livewire/Page.php' => 
+  array (
+    'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Syriable\\Filament\\Plugins\\Translator\\Concerns\\ResolvesPageLabels',
       ),
     ),
   ),
@@ -3948,6 +4073,20 @@ return [
         1 => 'App\\Support\\ModularCanvas\\Concerns\\UsesCanvasFactoryGenerator',
         2 => 'base_path(\'vendor/orchestra/canvas/src/Console\'):18',
         3 => NULL,
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Support\\ModularCanvas\\Commands\\FactoryMakeCommand',
+        1 => 'resolveDefaultStubPath',
+        2 => 'App\\Support\\ModularCanvas\\Commands\\FactoryMakeCommand',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'orchestra\\sidekick\\filesystem\\join_paths',
+          1 => 'f' . "\0" . 'base_path',
+        ),
       ),
     ),
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
@@ -4544,12 +4683,95 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Time.php' => 
   array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Support\\Time',
+        1 => 'nowFor',
+        2 => 'App\\Support\\Time',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'carbon\\carbonimmutable' . "\0" . 'now',
+          1 => 'm' . "\0" . 'app\\support\\time' . "\0" . 'resolvetimezone',
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'App\\Support\\Time',
+        1 => 'resolveTimezone',
+        2 => 'App\\Support\\Time',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'app\\support\\time' . "\0" . 'extracttimezone',
+          1 => 'm' . "\0" . 'app\\support\\time' . "\0" . 'authenticateduser',
+          2 => 'm' . "\0" . 'app\\support\\time' . "\0" . 'isvalididentifier',
+          3 => 'm' . "\0" . 'app\\support\\time' . "\0" . 'settingsdefault',
+          4 => 'f' . "\0" . 'config',
+        ),
+      ),
+      2 => 
+      array (
+        0 => 'App\\Support\\Time',
+        1 => 'isValidIdentifier',
+        2 => 'App\\Support\\Time',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'app\\support\\time' . "\0" . 'identifiers',
+        ),
+      ),
+      3 => 
+      array (
+        0 => 'App\\Support\\Time',
+        1 => 'extractTimezone',
+        2 => 'App\\Support\\Time',
+        3 => 
+        array (
+        ),
+      ),
+      4 => 
+      array (
+        0 => 'App\\Support\\Time',
+        1 => 'authenticatedUser',
+        2 => 'App\\Support\\Time',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'illuminate\\support\\facades\\auth' . "\0" . 'user',
+        ),
+      ),
+      5 => 
+      array (
+        0 => 'App\\Support\\Time',
+        1 => 'settingsDefault',
+        2 => 'App\\Support\\Time',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'config',
+        ),
+      ),
+    ),
     'PHPStan\\Rules\\DeadCode\\PossiblyPureFuncCallCollector' => 
     array (
       0 => 
       array (
         0 => 'asort',
         1 => 167,
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/app/Support/UnicodeSlug.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Support\\UnicodeSlug',
+        1 => 'make',
+        2 => 'App\\Support\\UnicodeSlug',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'preg_replace',
+        ),
       ),
     ),
   ),
@@ -4601,13 +4823,255 @@ return [
       ),
     ),
   ),
-  '/Users/ghiath/Desktop/sites/fluxwork/database/seeders/DatabaseSeeder.php' => 
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php' => 
   array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        1 => 'form',
+        2 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'modules\\users\\filament\\resources\\admins\\schemas\\adminform' . "\0" . 'configure',
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        1 => 'table',
+        2 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'modules\\users\\filament\\resources\\admins\\tables\\adminstable' . "\0" . 'configure',
+        ),
+      ),
+      2 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        1 => 'getRelations',
+        2 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        3 => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        1 => 'getPages',
+        2 => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'filament\\resources\\pages\\page' . "\0" . 'route',
+        ),
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/EditAdmin.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Admins\\Pages\\EditAdmin',
+        1 => 'getHeaderActions',
+        2 => 'Modules\\Users\\Filament\\Resources\\Admins\\Pages\\EditAdmin',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'filament\\actions\\action' . "\0" . 'make',
+        ),
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/ListAdmins.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Admins\\Pages\\ListAdmins',
+        1 => 'getHeaderActions',
+        2 => 'Modules\\Users\\Filament\\Resources\\Admins\\Pages\\ListAdmins',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'filament\\actions\\action' . "\0" . 'make',
+        ),
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        1 => 'form',
+        2 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'modules\\users\\filament\\resources\\buyers\\schemas\\buyerform' . "\0" . 'configure',
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        1 => 'table',
+        2 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'modules\\users\\filament\\resources\\buyers\\tables\\buyerstable' . "\0" . 'configure',
+        ),
+      ),
+      2 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        1 => 'getRelations',
+        2 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        3 => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        1 => 'getPages',
+        2 => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'filament\\resources\\pages\\page' . "\0" . 'route',
+        ),
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/EditBuyer.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Buyers\\Pages\\EditBuyer',
+        1 => 'getHeaderActions',
+        2 => 'Modules\\Users\\Filament\\Resources\\Buyers\\Pages\\EditBuyer',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'filament\\actions\\action' . "\0" . 'make',
+        ),
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/ListBuyers.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Filament\\Resources\\Buyers\\Pages\\ListBuyers',
+        1 => 'getHeaderActions',
+        2 => 'Modules\\Users\\Filament\\Resources\\Buyers\\Pages\\ListBuyers',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'filament\\actions\\action' . "\0" . 'make',
+        ),
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+        1 => 'tasks',
+        2 => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+        3 => 
+        array (
+        ),
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Syriable\\Filament\\Plugins\\Activitylog\\Support\\ActivityBatch',
+        1 => 'withinBatch',
+        2 => 35,
+      ),
+    ),
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
     array (
       0 => 
       array (
-        0 => 'Illuminate\\Database\\Console\\Seeds\\WithoutModelEvents',
+        0 => 'Illuminate\\Foundation\\Queue\\Queueable',
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Mail/WelcomeBuyerMail.php' => 
+  array (
+    'Larastan\\Larastan\\Collectors\\UsedTranslationFunctionCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Welcome to :app',
+        1 => 25,
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Mail\\WelcomeBuyerMail',
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Mail\\WelcomeBuyerMail',
+        1 => 'envelope',
+        2 => 'Modules\\Users\\Mail\\WelcomeBuyerMail',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'illuminate\\mail\\mailables\\envelope' . "\0" . '__construct',
+          1 => 'f' . "\0" . '__',
+          2 => 'f' . "\0" . 'config',
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'Modules\\Users\\Mail\\WelcomeBuyerMail',
+        1 => 'content',
+        2 => 'Modules\\Users\\Mail\\WelcomeBuyerMail',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'illuminate\\mail\\mailables\\content' . "\0" . '__construct',
+        ),
+      ),
+    ),
+    'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Illuminate\\Bus\\Queueable',
+      ),
+      1 => 
+      array (
+        0 => 'Illuminate\\Queue\\SerializesModels',
       ),
     ),
   ),
@@ -4620,6 +5084,27 @@ return [
         0 => 'Modules\\Users\\Models\\Admin',
         1 => 'casts',
         2 => 'Modules\\Users\\Models\\Admin',
+        3 => 
+        array (
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'Modules\\Users\\Models\\Admin',
+        1 => 'canAccessPanel',
+        2 => 'Modules\\Users\\Models\\Admin',
+        3 => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        0 => 'Modules\\Users\\Models\\Admin',
+        1 => 'getFilamentName',
+        2 => 'Modules\\Users\\Models\\Admin',
+        3 => 
+        array (
+        ),
       ),
     ),
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
@@ -4639,6 +5124,19 @@ return [
         0 => 'Modules\\Users\\Models\\Buyer',
         1 => 'casts',
         2 => 'Modules\\Users\\Models\\Buyer',
+        3 => 
+        array (
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'Modules\\Users\\Models\\Buyer',
+        1 => 'name',
+        2 => 'Modules\\Users\\Models\\Buyer',
+        3 => 
+        array (
+          0 => 'm' . "\0" . 'illuminate\\database\\eloquent\\casts\\attribute' . "\0" . 'make',
+        ),
       ),
     ),
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
@@ -4647,20 +5145,198 @@ return [
       array (
         0 => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
       ),
+      1 => 
+      array (
+        0 => 'Spatie\\Activitylog\\Models\\Concerns\\LogsActivity',
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Observers/BuyerObserver.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+        1 => 'dispatch',
+        2 => 17,
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Providers/UsersServiceProvider.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Filament\\Support\\Components\\Component',
+        1 => 'configureUsing',
+        2 => 16,
+      ),
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/ActiveToSuspended.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
     array (
-      0 => 'Modules\\Users\\States\\Account\\Transitions\\ActiveToSuspended',
+      0 => 
+      array (
+        0 => 'Modules\\Users\\States\\Account\\Transitions\\ActiveToSuspended',
+        1 => 
+        array (
+        ),
+      ),
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/SuspendedToActive.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
     array (
-      0 => 'Modules\\Users\\States\\Account\\Transitions\\SuspendedToActive',
+      0 => 
+      array (
+        0 => 'Modules\\Users\\States\\Account\\Transitions\\SuspendedToActive',
+        1 => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/UsersPlugin.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Modules\\Users\\UsersPlugin',
+        1 => 'make',
+        2 => 'Modules\\Users\\UsersPlugin',
+        3 => 
+        array (
+          0 => 'f' . "\0" . 'app',
+        ),
+      ),
+      1 => 
+      array (
+        0 => 'Modules\\Users\\UsersPlugin',
+        1 => 'getId',
+        2 => 'Modules\\Users\\UsersPlugin',
+        3 => 
+        array (
+        ),
+      ),
+    ),
+    'PHPStan\\Rules\\Methods\\NamedArgumentParameterMethodCallsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Filament\\Panel',
+        1 => 'discoverResources',
+        2 => 'in',
+        3 => 26,
+      ),
+      1 => 
+      array (
+        0 => 'Filament\\Panel',
+        1 => 'discoverResources',
+        2 => 'for',
+        3 => 27,
+      ),
+      2 => 
+      array (
+        0 => 'Filament\\Panel',
+        1 => 'discoverPages',
+        2 => 'in',
+        3 => 30,
+      ),
+      3 => 
+      array (
+        0 => 'Filament\\Panel',
+        1 => 'discoverPages',
+        2 => 'for',
+        3 => 31,
+      ),
+      4 => 
+      array (
+        0 => 'Filament\\Panel',
+        1 => 'discoverWidgets',
+        2 => 'in',
+        3 => 34,
+      ),
+      5 => 
+      array (
+        0 => 'Filament\\Panel',
+        1 => 'discoverWidgets',
+        2 => 'for',
+        3 => 35,
+      ),
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureFuncCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'uses',
+        1 => 12,
+      ),
+      1 => 
+      array (
+        0 => 'it',
+        1 => 14,
+      ),
+      2 => 
+      array (
+        0 => 'it',
+        1 => 23,
+      ),
+      3 => 
+      array (
+        0 => 'it',
+        1 => 35,
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureMethodCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'Pest\\Mixins\\Expectation',
+        ),
+        1 => 'toBeTrue',
+        2 => 20,
+      ),
+      1 => 
+      array (
+        0 => 
+        array (
+          0 => 'Pest\\Mixins\\Expectation',
+        ),
+        1 => 'toContain',
+        2 => 44,
+      ),
+    ),
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Illuminate\\Support\\Facades\\Mail',
+        1 => 'fake',
+        2 => 15,
+      ),
+      1 => 
+      array (
+        0 => 'Illuminate\\Support\\Facades\\Mail',
+        1 => 'fake',
+        2 => 24,
+      ),
+      2 => 
+      array (
+        0 => 'Illuminate\\Support\\Facades\\Mail',
+        1 => 'fake',
+        2 => 36,
+      ),
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/routes/web.php' => 
@@ -4675,7 +5351,7 @@ return [
       array (
         0 => 'Illuminate\\Support\\Facades\\Route',
         1 => 'get',
-        2 => 9,
+        2 => 10,
       ),
     ),
   ),
@@ -4835,7 +5511,6 @@ return [
     'fileHash' => 'd33ad27582de39682c97452046f585df5ba710573cca1950c08f02e4d0e7311c',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Console/Commands/FileGenerators/Resources/Pages/ResourceEditRecordPageClassGenerator.php' => 
@@ -4843,7 +5518,6 @@ return [
     'fileHash' => 'e00b7dcbaf59bfd2bcbc9f371c636816dee46bab76313c1c9ce2111b04b0f108',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Console/Commands/FileGenerators/Resources/Pages/ResourceListRecordsPageClassGenerator.php' => 
@@ -4851,7 +5525,6 @@ return [
     'fileHash' => 'cea461b902985a1a5f8ab7f33a17430cb0117dee0fdd1ad6dd46da0c7d031bdd',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Console/Commands/FileGenerators/Resources/ResourceClassGenerator.php' => 
@@ -4859,7 +5532,6 @@ return [
     'fileHash' => 'c43b155f884caec6238bd43ea71535b41fff47d5f47dd85edbed3db5673b7c24',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Enums/Alignment.php' => 
@@ -4878,10 +5550,11 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Filament/Schemas/Components/Separator.php' => 
   array (
-    'fileHash' => 'd9f1a660ff1bed3e64919f43b76aafc82000d6816bbf2a8c94300d5432113728',
+    'fileHash' => 'd5c04f54610b4dca8718d19e7a9cc529cad2ca2fd7cc29aa75f35fa333946596',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/config/filament-translator.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Http/Controllers/Controller.php' => 
@@ -4910,7 +5583,7 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php' => 
   array (
-    'fileHash' => '8b4ab31c29205146b5be0a0751cf20f678ec460eee77dca123f94c19020370ed',
+    'fileHash' => '41ab6de32bf26affe4b78577c665c86958a8180dc20ff4ccd050370f40a864fa',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/routes/auth.php',
@@ -4918,7 +5591,7 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Models/User.php' => 
   array (
-    'fileHash' => 'fa2a38bc4264c931526dde347f51e17860e0d309cedc4007547c221f24a04d74',
+    'fileHash' => '8c0808882adc1fdb28b8fdb07f42c097d2ca0efc6b159258f1189921e0619b81',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Session/PolymorphicDatabaseSessionHandler.php',
@@ -4929,16 +5602,26 @@ return [
       5 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/BuyerFactory.php',
       6 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/AdminSeeder.php',
       7 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/BuyerSeeder.php',
-      8 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php',
-      9 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Buyer.php',
-      10 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/ActiveToSuspended.php',
-      11 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/SuspendedToActive.php',
-      12 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
+      8 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php',
+      9 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+      10 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php',
+      11 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php',
+      12 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/AssignBuyerRole.php',
+      13 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/Preparation.php',
+      14 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/SendWelcomeEmail.php',
+      15 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Mail/WelcomeBuyerMail.php',
+      16 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php',
+      17 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Buyer.php',
+      18 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Observers/BuyerObserver.php',
+      19 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/ActiveToSuspended.php',
+      20 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/SuspendedToActive.php',
+      21 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php',
+      22 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/AppServiceProvider.php' => 
   array (
-    'fileHash' => '179778f671cfd741347e7973940e16e9f89f610b24ba8d60505cdc2bfcf234b2',
+    'fileHash' => '7f73f964ed4c838f7f0d36d5fe137f1bbe46788c2cb4b6b2c91c67149277db68',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/services.php',
@@ -4947,7 +5630,7 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Providers/Filament/DashboardPanelProvider.php' => 
   array (
-    'fileHash' => '8f7b157cf4fc9792d6005ea33bc30417ec72a096a23ba914977c9774bba215fe',
+    'fileHash' => 'c35e3bfb2d6747a0bfeefa619d6b4c9903da04bea48e6f2e3e85018f16236300',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/services.php',
@@ -5011,7 +5694,7 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Livewire/Page.php' => 
   array (
-    'fileHash' => 'bb53fed1f4840394cbbdf12396ecdeb4d5056e7917abfe5fa0607dcc53d80a7b',
+    'fileHash' => 'd918cde2169f2ba8f59b4d1968666cb5b857fcc1c60ca27dd72d26afe161a29e',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Livewire/Auth/Login.php',
@@ -5382,14 +6065,14 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/packages.php' => 
   array (
-    'fileHash' => '4204536db3de980ad535f5b954df7efcd4fd80168300acfad9312fb43df1005f',
+    'fileHash' => '7392b8fa3cb296d490191c3e9bd5c585d5893a6623b5030bb3ab7e59d8e61df1',
     'dependentFiles' => 
     array (
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/services.php' => 
   array (
-    'fileHash' => '25241a6d0675e4e08642aba6d27d0de17c6769abc2283443e769ae3f1125269a',
+    'fileHash' => '65626b2a286f9b8463ccb8a6bd6073b4863a5b7dbd07d9a46c3b212f9702abf3',
     'dependentFiles' => 
     array (
     ),
@@ -5439,6 +6122,13 @@ return [
   '/Users/ghiath/Desktop/sites/fluxwork/config/filament-shield.php' => 
   array (
     'fileHash' => '74b5b0bffc81c428d764308be666cfdf152a80a8fac64e897eeadd518b703ca4',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/config/filament-translator.php' => 
+  array (
+    'fileHash' => '38e63e3ef583d7acf8502989ff0bac1fba9c2b79e7e16dd37976fc2159340c88',
     'dependentFiles' => 
     array (
     ),
@@ -5569,9 +6259,16 @@ return [
     array (
     ),
   ),
+  '/Users/ghiath/Desktop/sites/fluxwork/database/migrations/2026_06_06_142408_create_activity_log_table.php' => 
+  array (
+    'fileHash' => 'f5831d7da58f37e85aa2d6b5e62c23c0e5576f55f41a2b577cf12790fe06f20c',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/database/seeders/DatabaseSeeder.php' => 
   array (
-    'fileHash' => 'a844524ddb1c1ee2cfc5d52c901d4bdd473d4f64386213e983c29da4697c2d96',
+    'fileHash' => '948a9779b64e9d65e36998417917a79a50b0864d999ec70129babbe24d2386b1',
     'dependentFiles' => 
     array (
     ),
@@ -5593,7 +6290,8 @@ return [
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/BuyerSeeder.php',
       1 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Buyer.php',
-      2 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php',
+      3 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124126_create_buyers_table.php' => 
@@ -5626,6 +6324,13 @@ return [
       0 => '/Users/ghiath/Desktop/sites/fluxwork/database/seeders/DatabaseSeeder.php',
     ),
   ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/resources/views/mail/welcome-buyer.blade.php' => 
+  array (
+    'fileHash' => 'a5c108f8e58fff84074840e35ec21f9eb1cf28b4c1f033c857e3266612f2dc9b',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/modules/users/routes/users-routes.php' => 
   array (
     'fileHash' => '0f47689a54b62f2fa99240ff0e081920bad20dc3779b24d76f16e7709eecbed3',
@@ -5633,44 +6338,208 @@ return [
     array (
     ),
   ),
-  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php' => 
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php' => 
   array (
-    'fileHash' => '02790b1562f99a6f945ac20c414d1c6efd27e8ae589625830edcf7e43e8cc1d3',
+    'fileHash' => 'e1cabb41e9ca0ed8bd61ad0f5219274e7eb4a98d67391d2569842fe4f8a49a79',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Session/PolymorphicDatabaseSessionHandler.php',
-      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Time.php',
-      2 => '/Users/ghiath/Desktop/sites/fluxwork/config/auth.php',
-      3 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/AdminFactory.php',
-      4 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/AdminSeeder.php',
-      5 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/CreateAdmin.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/EditAdmin.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/ListAdmins.php',
+      3 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/CreateAdmin.php' => 
+  array (
+    'fileHash' => 'f671ed3348d24efe41fd6ef8a2b366d4ee7d4f1f697c2f9fe00473ace5fbcd8e',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/EditAdmin.php' => 
+  array (
+    'fileHash' => 'f6c354d996a839c02d41cb4ec3fa470160c880fe97a477456cab84017a7bd00d',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/ListAdmins.php' => 
+  array (
+    'fileHash' => '57aee634d9c57d4307a08d7966735f79191242c675f511343a0ade746ee39b2e',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Schemas/AdminForm.php' => 
+  array (
+    'fileHash' => '322b6cb3dd4bd94dca7efa82f9dd4cc472c7f448fe426cb624969da0b82e270f',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Tables/AdminsTable.php' => 
+  array (
+    'fileHash' => '14f8ceb9c768f46dc828d6f59fa31dab40b1cc600833a344eabb36899ef71b39',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php' => 
+  array (
+    'fileHash' => '624d262a82f4f0c7f2f694c7520f0970fdf0125caafb50b9c89324b83debd68e',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/CreateBuyer.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/EditBuyer.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/ListBuyers.php',
+      3 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/CreateBuyer.php' => 
+  array (
+    'fileHash' => 'd0bec389dd2a102adb12d827e9468cb73c8838b8311ef98ad6ac7f14bff817bb',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/EditBuyer.php' => 
+  array (
+    'fileHash' => 'b4baede7be672422e48b5a22ac4b59f06c7c6e3e4ff3128a01f577c2ce701e5a',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/ListBuyers.php' => 
+  array (
+    'fileHash' => 'ec50664aa0024d6a4059a7be060f1fccbb160b5440b45f01291f7a2e2d750ae8',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Schemas/BuyerForm.php' => 
+  array (
+    'fileHash' => '361eb8c889e3e04bae2c259db6130b10e91f91a25e0760900fa1e87f8f5c2ff5',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php' => 
+  array (
+    'fileHash' => 'f63cd6efb858bf1f8b59f615ac69feff012162212e8f46d3e24c5870276f9dca',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php' => 
+  array (
+    'fileHash' => '814c75d0bbb61610bdf96e4870079ea21d08e3bbc2230402be288a6fe2388a81',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Observers/BuyerObserver.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/AssignBuyerRole.php' => 
+  array (
+    'fileHash' => '8f0564be6e83e82e2f563187a86e6dc04c23aa009a31969e5e0e2f3969b07d6a',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/Preparation.php' => 
+  array (
+    'fileHash' => '883e40c4acdd59ced63d04197b7589b8d7324bd67f5c9fbf6036c1c2cbdd5c8e',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/SendWelcomeEmail.php' => 
+  array (
+    'fileHash' => '66e60b47f6708a6ac6606b71ab5363e5fb58063e0a6d5a349654c95c41c8c248',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Mail/WelcomeBuyerMail.php' => 
+  array (
+    'fileHash' => 'f17b0e3a739dd6070975cbf568f364b0e031490e7faf954645e97be758cb2215',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/SendWelcomeEmail.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php' => 
+  array (
+    'fileHash' => '7d45c603d757ac7c227231c1aaf47a6532fd5b17a50f06b15ff3bebb1f406a80',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Models/User.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Session/PolymorphicDatabaseSessionHandler.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Time.php',
+      3 => '/Users/ghiath/Desktop/sites/fluxwork/config/auth.php',
+      4 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/AdminFactory.php',
+      5 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/AdminSeeder.php',
+      6 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php',
+      7 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php',
+      8 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Buyer.php' => 
   array (
-    'fileHash' => '2d0a5f1b913aac6feaaad80e3afa82318823daddbeb1a018d26366841d76a16f',
+    'fileHash' => 'fe7ffb066f4c57ae41b80afbb83b9701be0b3bba20ee167b8460ef7f04af966f',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Session/PolymorphicDatabaseSessionHandler.php',
-      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Time.php',
-      2 => '/Users/ghiath/Desktop/sites/fluxwork/config/auth.php',
-      3 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/AdminFactory.php',
-      4 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/BuyerFactory.php',
-      5 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124126_create_buyers_table.php',
-      6 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124157_create_admins_table.php',
-      7 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/BuyerSeeder.php',
-      8 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php',
-      9 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Active.php',
-      10 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Suspended.php',
-      11 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/ActiveToSuspended.php',
-      12 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/SuspendedToActive.php',
-      13 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/AccountState.php',
-      14 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Models/User.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Session/PolymorphicDatabaseSessionHandler.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Time.php',
+      3 => '/Users/ghiath/Desktop/sites/fluxwork/config/auth.php',
+      4 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/AdminFactory.php',
+      5 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/BuyerFactory.php',
+      6 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124126_create_buyers_table.php',
+      7 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124157_create_admins_table.php',
+      8 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/BuyerSeeder.php',
+      9 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+      10 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php',
+      11 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php',
+      12 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/AssignBuyerRole.php',
+      13 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/Preparation.php',
+      14 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/SendWelcomeEmail.php',
+      15 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Mail/WelcomeBuyerMail.php',
+      16 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php',
+      17 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Observers/BuyerObserver.php',
+      18 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Active.php',
+      19 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Suspended.php',
+      20 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/ActiveToSuspended.php',
+      21 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/SuspendedToActive.php',
+      22 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/AccountState.php',
+      23 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php',
+      24 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Observers/BuyerObserver.php' => 
+  array (
+    'fileHash' => '75e9c4382da623346e9cc91b27297e2d161ec6777de9aea5d06331fa721c0cce',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Buyer.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Providers/UsersServiceProvider.php' => 
   array (
-    'fileHash' => 'a49e17dd1971b0c9d57f527a9de748b21620af783acfc72cf04870fa3288e44b',
+    'fileHash' => '7f5ab7743d4bb2a3088d679e5b6b16434385e5faa50caa516d3c7c607ace5f51',
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/bootstrap/cache/packages.php',
@@ -5720,21 +6589,46 @@ return [
     'fileHash' => '14fec4c20f209d7a0cb544d83575f42ba20e3762c0d298768baa2ff05293f7e7',
     'dependentFiles' => 
     array (
-      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Session/PolymorphicDatabaseSessionHandler.php',
-      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Time.php',
-      2 => '/Users/ghiath/Desktop/sites/fluxwork/config/auth.php',
-      3 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/AdminFactory.php',
-      4 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/BuyerFactory.php',
-      5 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124126_create_buyers_table.php',
-      6 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124157_create_admins_table.php',
-      7 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/BuyerSeeder.php',
-      8 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php',
-      9 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Buyer.php',
-      10 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Active.php',
-      11 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Suspended.php',
-      12 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/ActiveToSuspended.php',
-      13 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/SuspendedToActive.php',
-      14 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/app/Models/User.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/app/Session/PolymorphicDatabaseSessionHandler.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/app/Support/Time.php',
+      3 => '/Users/ghiath/Desktop/sites/fluxwork/config/auth.php',
+      4 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/AdminFactory.php',
+      5 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/factories/BuyerFactory.php',
+      6 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124126_create_buyers_table.php',
+      7 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/migrations/2026_06_01_124157_create_admins_table.php',
+      8 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/database/seeders/BuyerSeeder.php',
+      9 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php',
+      10 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php',
+      11 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php',
+      12 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/AssignBuyerRole.php',
+      13 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/Preparation.php',
+      14 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/SendWelcomeEmail.php',
+      15 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Mail/WelcomeBuyerMail.php',
+      16 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php',
+      17 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Buyer.php',
+      18 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Observers/BuyerObserver.php',
+      19 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Active.php',
+      20 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Suspended.php',
+      21 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/ActiveToSuspended.php',
+      22 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/States/Account/Transitions/SuspendedToActive.php',
+      23 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php',
+      24 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Feature/PolymorphicDatabaseSessionTest.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/UsersPlugin.php' => 
+  array (
+    'fileHash' => 'cc909bd55ddef603bba1a535a95a6179c7cd89a77e89e189dd0b81b7221c5ebd',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Providers/UsersServiceProvider.php',
+    ),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php' => 
+  array (
+    'fileHash' => 'd0c752d2cef7173b2c6be4b8b528fe54d1da98ca42ffb1f03214713b2bed3247',
+    'dependentFiles' => 
+    array (
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/routes/auth.php' => 
@@ -5753,7 +6647,7 @@ return [
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/routes/web.php' => 
   array (
-    'fileHash' => 'd897225e07fdb5bd039672306a767f78172eee3264fddad33e9980a2f459fa62',
+    'fileHash' => 'd41c2c20bb9f7741b1c71b17208a14982f69f8f990d523738d1598e4e2bb39a3',
     'dependentFiles' => 
     array (
     ),
@@ -5785,7 +6679,8 @@ return [
     'dependentFiles' => 
     array (
       0 => '/Users/ghiath/Desktop/sites/fluxwork/config/app-modules.php',
-      1 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Pest.php',
+      1 => '/Users/ghiath/Desktop/sites/fluxwork/modules/users/tests/Feature/ConfigureNewBuyerTest.php',
+      2 => '/Users/ghiath/Desktop/sites/fluxwork/tests/Pest.php',
     ),
   ),
   '/Users/ghiath/Desktop/sites/fluxwork/tests/Unit/ExampleTest.php' => 
@@ -6395,6 +7290,19 @@ return [
            'returnType' => 'static',
            'parameters' => 
           array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'name',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
           ),
            'attributes' => 
           array (
@@ -6785,31 +7693,6 @@ return [
         )),
         4 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'getTitle',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'string',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-            0 => 
-            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
-               'name' => 'Override',
-               'args' => 
-              array (
-              ),
-            )),
-          ),
-        )),
-        5 => 
-        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'form',
            'phpDoc' => NULL,
            'byRef' => false,
@@ -6839,7 +7722,7 @@ return [
           array (
           ),
         )),
-        6 => 
+        5 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'content',
            'phpDoc' => NULL,
@@ -6870,7 +7753,7 @@ return [
           array (
           ),
         )),
-        7 => 
+        6 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'getFormContentComponent',
            'phpDoc' => NULL,
@@ -6888,7 +7771,7 @@ return [
           array (
           ),
         )),
-        8 => 
+        7 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'authenticate',
            'phpDoc' => NULL,
@@ -6930,7 +7813,35 @@ return [
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
        'name' => 'App\\Models\\User',
-       'phpDoc' => NULL,
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * @property string $username
+ * @property string $display_name
+ * @property string $email
+ * @property string|null $locale
+ * @property string $timezone
+ * @property-read string $name
+ * @property-read string $locale_time
+ */',
+         'namespace' => 'App\\Models',
+         'uses' => 
+        array (
+          'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+          'hasulids' => 'Illuminate\\Database\\Eloquent\\Concerns\\HasUlids',
+          'authenticatable' => 'Illuminate\\Foundation\\Auth\\User',
+          'notifiable' => 'Illuminate\\Notifications\\Notifiable',
+          'auth' => 'Illuminate\\Support\\Facades\\Auth',
+          'hasmedia' => 'Spatie\\MediaLibrary\\HasMedia',
+          'interactswithmedia' => 'Spatie\\MediaLibrary\\InteractsWithMedia',
+          'hasstates' => 'Spatie\\ModelStates\\HasStates',
+          'guard' => 'Spatie\\Permission\\Guard',
+          'hasroles' => 'Spatie\\Permission\\Traits\\HasRoles',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
        'abstract' => true,
        'final' => false,
        'extends' => 'Illuminate\\Foundation\\Auth\\User',
@@ -6962,6 +7873,165 @@ return [
            'final' => false,
            'static' => false,
            'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getRouteKeyName',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'welcomeNotificationKeyValue',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'preferredLocale',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'localeTime',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @return Attribute<string, never>
+     */',
+             'namespace' => 'App\\Models',
+             'uses' => 
+            array (
+              'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+              'hasulids' => 'Illuminate\\Database\\Eloquent\\Concerns\\HasUlids',
+              'authenticatable' => 'Illuminate\\Foundation\\Auth\\User',
+              'notifiable' => 'Illuminate\\Notifications\\Notifiable',
+              'auth' => 'Illuminate\\Support\\Facades\\Auth',
+              'hasmedia' => 'Spatie\\MediaLibrary\\HasMedia',
+              'interactswithmedia' => 'Spatie\\MediaLibrary\\InteractsWithMedia',
+              'hasstates' => 'Spatie\\ModelStates\\HasStates',
+              'guard' => 'Spatie\\Permission\\Guard',
+              'hasroles' => 'Spatie\\Permission\\Traits\\HasRoles',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getGuardName',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'name',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @return Attribute<string, never>
+     */',
+             'namespace' => 'App\\Models',
+             'uses' => 
+            array (
+              'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+              'hasulids' => 'Illuminate\\Database\\Eloquent\\Concerns\\HasUlids',
+              'authenticatable' => 'Illuminate\\Foundation\\Auth\\User',
+              'notifiable' => 'Illuminate\\Notifications\\Notifiable',
+              'auth' => 'Illuminate\\Support\\Facades\\Auth',
+              'hasmedia' => 'Spatie\\MediaLibrary\\HasMedia',
+              'interactswithmedia' => 'Spatie\\MediaLibrary\\InteractsWithMedia',
+              'hasstates' => 'Spatie\\ModelStates\\HasStates',
+              'guard' => 'Spatie\\Permission\\Guard',
+              'hasroles' => 'Spatie\\Permission\\Traits\\HasRoles',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
            'parameters' => 
           array (
           ),
@@ -7007,21 +8077,7 @@ return [
              'uses' => 
             array (
               'polymorphicdatabasesessionhandler' => 'App\\Session\\PolymorphicDatabaseSessionHandler',
-              'factory' => 'BladeUI\\Icons\\Factory',
               'carbonimmutable' => 'Carbon\\CarbonImmutable',
-              'advancedtextcolumn' => 'CodeWithDennis\\FilamentAdvancedComponents\\Filament\\Tables\\Components\\AdvancedTextColumn',
-              'action' => 'Filament\\Actions\\Action',
-              'resourcecreaterecordpageclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\Pages\\ResourceCreateRecordPageClassGenerator',
-              'resourceeditrecordpageclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\Pages\\ResourceEditRecordPageClassGenerator',
-              'resourcelistrecordspageclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\Pages\\ResourceListRecordsPageClassGenerator',
-              'resourceclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\ResourceClassGenerator',
-              'textarea' => 'Filament\\Forms\\Components\\Textarea',
-              'textinput' => 'Filament\\Forms\\Components\\TextInput',
-              'togglebuttons' => 'Filament\\Forms\\Components\\ToggleButtons',
-              'page' => 'Filament\\Pages\\Page',
-              'section' => 'Filament\\Schemas\\Components\\Section',
-              'schema' => 'Filament\\Schemas\\Schema',
-              'alignment' => 'Filament\\Support\\Enums\\Alignment',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'app' => 'Illuminate\\Support\\Facades\\App',
               'date' => 'Illuminate\\Support\\Facades\\Date',
@@ -7030,6 +8086,7 @@ return [
               'serviceprovider' => 'Illuminate\\Support\\ServiceProvider',
               'password' => 'Illuminate\\Validation\\Rules\\Password',
               'blaze' => 'Livewire\\Blaze\\Blaze',
+              'conventionregistry' => 'Syriable\\Filament\\Plugins\\Translator\\ConventionRegistry',
             ),
              'constUses' => 
             array (
@@ -7068,21 +8125,7 @@ return [
              'uses' => 
             array (
               'polymorphicdatabasesessionhandler' => 'App\\Session\\PolymorphicDatabaseSessionHandler',
-              'factory' => 'BladeUI\\Icons\\Factory',
               'carbonimmutable' => 'Carbon\\CarbonImmutable',
-              'advancedtextcolumn' => 'CodeWithDennis\\FilamentAdvancedComponents\\Filament\\Tables\\Components\\AdvancedTextColumn',
-              'action' => 'Filament\\Actions\\Action',
-              'resourcecreaterecordpageclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\Pages\\ResourceCreateRecordPageClassGenerator',
-              'resourceeditrecordpageclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\Pages\\ResourceEditRecordPageClassGenerator',
-              'resourcelistrecordspageclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\Pages\\ResourceListRecordsPageClassGenerator',
-              'resourceclassgenerator' => 'Filament\\Commands\\FileGenerators\\Resources\\ResourceClassGenerator',
-              'textarea' => 'Filament\\Forms\\Components\\Textarea',
-              'textinput' => 'Filament\\Forms\\Components\\TextInput',
-              'togglebuttons' => 'Filament\\Forms\\Components\\ToggleButtons',
-              'page' => 'Filament\\Pages\\Page',
-              'section' => 'Filament\\Schemas\\Components\\Section',
-              'schema' => 'Filament\\Schemas\\Schema',
-              'alignment' => 'Filament\\Support\\Enums\\Alignment',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'app' => 'Illuminate\\Support\\Facades\\App',
               'date' => 'Illuminate\\Support\\Facades\\Date',
@@ -7091,6 +8134,7 @@ return [
               'serviceprovider' => 'Illuminate\\Support\\ServiceProvider',
               'password' => 'Illuminate\\Validation\\Rules\\Password',
               'blaze' => 'Livewire\\Blaze\\Blaze',
+              'conventionregistry' => 'Syriable\\Filament\\Plugins\\Translator\\ConventionRegistry',
             ),
              'constUses' => 
             array (
@@ -7098,42 +8142,6 @@ return [
           )),
            'byRef' => false,
            'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'void',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'initializeFilamentComponents',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => false,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'void',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        3 => 
-        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'microFilamentComponents',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => false,
            'private' => false,
            'abstract' => false,
            'final' => false,
@@ -8304,9 +9312,11 @@ return [
        'extends' => 'App\\Support\\Livewire\\Component',
        'implements' => 
       array (
+        0 => 'Syriable\\Filament\\Plugins\\Translator\\Contracts\\TranslatesConventionally',
       ),
        'usedTraits' => 
       array (
+        0 => 'Syriable\\Filament\\Plugins\\Translator\\Concerns\\ResolvesPageLabels',
       ),
        'traitUseAdaptations' => 
       array (
@@ -10261,7 +11271,6 @@ return [
       ),
        'usedTraits' => 
       array (
-        0 => 'Illuminate\\Database\\Console\\Seeds\\WithoutModelEvents',
       ),
        'traitUseAdaptations' => 
       array (
@@ -10279,7 +11288,6 @@ return [
              'namespace' => 'Database\\Seeders',
              'uses' => 
             array (
-              'withoutmodelevents' => 'Illuminate\\Database\\Console\\Seeds\\WithoutModelEvents',
               'seeder' => 'Illuminate\\Database\\Seeder',
               'adminseeder' => 'Modules\\Users\\Database\\Seeders\\AdminSeeder',
               'buyerseeder' => 'Modules\\Users\\Database\\Seeders\\BuyerSeeder',
@@ -10934,6 +11942,1611 @@ return [
       ),
     )),
   ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/AdminResource.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Syriable\\Filament\\Plugins\\Translator\\Filament\\Resources\\TranslatableResource',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'model',
+          ),
+           'phpDoc' => NULL,
+           'type' => '?string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'navigationIcon',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string|BackedEnum|null',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'recordTitleAttribute',
+          ),
+           'phpDoc' => NULL,
+           'type' => '?string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'form',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Schemas\\Schema',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'schema',
+               'type' => 'Filament\\Schemas\\Schema',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'table',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Tables\\Table',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'table',
+               'type' => 'Filament\\Tables\\Table',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getRelations',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getPages',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/CreateAdmin.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Admins\\Pages\\CreateAdmin',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Filament\\Resources\\Pages\\CreateRecord',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'resource',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/EditAdmin.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Admins\\Pages\\EditAdmin',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Filament\\Resources\\Pages\\EditRecord',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'resource',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getHeaderActions',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Pages/ListAdmins.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Admins\\Pages\\ListAdmins',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Filament\\Resources\\Pages\\ListRecords',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'resource',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getHeaderActions',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Schemas/AdminForm.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Admins\\Schemas\\AdminForm',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'configure',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Schemas\\Schema',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'schema',
+               'type' => 'Filament\\Schemas\\Schema',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Admins/Tables/AdminsTable.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Admins\\Tables\\AdminsTable',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'configure',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Tables\\Table',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'table',
+               'type' => 'Filament\\Tables\\Table',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/BuyerResource.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Syriable\\Filament\\Plugins\\Translator\\Filament\\Resources\\TranslatableResource',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'model',
+          ),
+           'phpDoc' => NULL,
+           'type' => '?string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'navigationIcon',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string|BackedEnum|null',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'recordTitleAttribute',
+          ),
+           'phpDoc' => NULL,
+           'type' => '?string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'form',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Schemas\\Schema',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'schema',
+               'type' => 'Filament\\Schemas\\Schema',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'table',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Tables\\Table',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'table',
+               'type' => 'Filament\\Tables\\Table',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getRelations',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getPages',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/CreateBuyer.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Buyers\\Pages\\CreateBuyer',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Filament\\Resources\\Pages\\CreateRecord',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'resource',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/EditBuyer.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Buyers\\Pages\\EditBuyer',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Syriable\\Filament\\Plugins\\Translator\\Filament\\Resources\\Resource\\Pages\\TranslatableEditRecord',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'resource',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getHeaderActions',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Pages/ListBuyers.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Buyers\\Pages\\ListBuyers',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Syriable\\Filament\\Plugins\\Translator\\Filament\\Resources\\Resource\\Pages\\TranslatableListRecords',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'resource',
+          ),
+           'phpDoc' => NULL,
+           'type' => 'string',
+           'public' => false,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'abstract' => false,
+           'final' => false,
+           'publicSet' => false,
+           'protectedSet' => false,
+           'privateSet' => false,
+           'virtual' => false,
+           'attributes' => 
+          array (
+          ),
+           'hooks' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getHeaderActions',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Schemas/BuyerForm.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Buyers\\Schemas\\BuyerForm',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'configure',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Schemas\\Schema',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'schema',
+               'type' => 'Filament\\Schemas\\Schema',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Filament/Resources/Buyers/Tables/BuyersTable.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Filament\\Resources\\Buyers\\Tables\\BuyersTable',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'configure',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'Filament\\Tables\\Table',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'table',
+               'type' => 'Filament\\Tables\\Table',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/ConfigureNewBuyer.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * Runs the onboarding ("configuration") process for a newly registered buyer.
+ *
+ * Each step is a self-contained task that receives the buyer, performs its
+ * work, records an activity-log entry, then passes the buyer to the next task.
+ * To add a new step, append its class to {@see self::tasks()}.
+ *
+ * All activity-log entries produced by the pipeline are grouped under a single
+ * batch via {@see ActivityBatch::withinBatch()} so the onboarding shows up as
+ * one logical event in the activity timeline.
+ */',
+         'namespace' => 'Modules\\Users\\Jobs',
+         'uses' => 
+        array (
+          'shouldqueue' => 'Illuminate\\Contracts\\Queue\\ShouldQueue',
+          'queueable' => 'Illuminate\\Foundation\\Queue\\Queueable',
+          'pipeline' => 'Illuminate\\Pipeline\\Pipeline',
+          'assignbuyerrole' => 'Modules\\Users\\Jobs\\Tasks\\AssignBuyerRole',
+          'preparation' => 'Modules\\Users\\Jobs\\Tasks\\Preparation',
+          'sendwelcomeemail' => 'Modules\\Users\\Jobs\\Tasks\\SendWelcomeEmail',
+          'buyer' => 'Modules\\Users\\Models\\Buyer',
+          'activitybatch' => 'Syriable\\Filament\\Plugins\\Activitylog\\Support\\ActivityBatch',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'Illuminate\\Contracts\\Queue\\ShouldQueue',
+      ),
+       'usedTraits' => 
+      array (
+        0 => 'Illuminate\\Foundation\\Queue\\Queueable',
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 1,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'handle',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'pipeline',
+               'type' => 'Illuminate\\Pipeline\\Pipeline',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'tasks',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * The ordered onboarding tasks. Add new steps here.
+     *
+     * @return list<class-string>
+     */',
+             'namespace' => 'Modules\\Users\\Jobs',
+             'uses' => 
+            array (
+              'shouldqueue' => 'Illuminate\\Contracts\\Queue\\ShouldQueue',
+              'queueable' => 'Illuminate\\Foundation\\Queue\\Queueable',
+              'pipeline' => 'Illuminate\\Pipeline\\Pipeline',
+              'assignbuyerrole' => 'Modules\\Users\\Jobs\\Tasks\\AssignBuyerRole',
+              'preparation' => 'Modules\\Users\\Jobs\\Tasks\\Preparation',
+              'sendwelcomeemail' => 'Modules\\Users\\Jobs\\Tasks\\SendWelcomeEmail',
+              'buyer' => 'Modules\\Users\\Models\\Buyer',
+              'activitybatch' => 'Syriable\\Filament\\Plugins\\Activitylog\\Support\\ActivityBatch',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/AssignBuyerRole.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Jobs\\Tasks\\AssignBuyerRole',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * Step 1 of the buyer onboarding pipeline: grant the "buyer" role.
+ *
+ * The role is created on demand so the pipeline is self-healing and does not
+ * depend on a seeder having run first.
+ */',
+         'namespace' => 'Modules\\Users\\Jobs\\Tasks',
+         'uses' => 
+        array (
+          'closure' => 'Closure',
+          'buyer' => 'Modules\\Users\\Models\\Buyer',
+          'guard' => 'Spatie\\Permission\\Guard',
+          'role' => 'Spatie\\Permission\\Models\\Role',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedClassConstantsNode::__set_state(array(
+           'constants' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedClassConstantNode::__set_state(array(
+               'name' => 'ROLE',
+               'value' => '\'buyer\'',
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'public' => true,
+           'private' => false,
+           'final' => false,
+           'phpDoc' => NULL,
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'handle',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'mixed',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'next',
+               'type' => 'Closure',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/Preparation.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Jobs\\Tasks\\Preparation',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'handle',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'mixed',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'next',
+               'type' => 'Closure',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Jobs/Tasks/SendWelcomeEmail.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Jobs\\Tasks\\SendWelcomeEmail',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * Step 2 of the buyer onboarding pipeline: send the welcome email.
+ */',
+         'namespace' => 'Modules\\Users\\Jobs\\Tasks',
+         'uses' => 
+        array (
+          'closure' => 'Closure',
+          'mail' => 'Illuminate\\Support\\Facades\\Mail',
+          'welcomebuyermail' => 'Modules\\Users\\Mail\\WelcomeBuyerMail',
+          'buyer' => 'Modules\\Users\\Models\\Buyer',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'handle',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'mixed',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'next',
+               'type' => 'Closure',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Mail/WelcomeBuyerMail.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Mail\\WelcomeBuyerMail',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Illuminate\\Mail\\Mailable',
+       'implements' => 
+      array (
+        0 => 'Illuminate\\Contracts\\Queue\\ShouldQueue',
+      ),
+       'usedTraits' => 
+      array (
+        0 => 'Illuminate\\Bus\\Queueable',
+        1 => 'Illuminate\\Queue\\SerializesModels',
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 1,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'envelope',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Illuminate\\Mail\\Mailables\\Envelope',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'content',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Illuminate\\Mail\\Mailables\\Content',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
   '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Models/Admin.php' => 
   array (
     0 => 
@@ -10945,6 +13558,9 @@ return [
        'extends' => 'App\\Models\\User',
        'implements' => 
       array (
+        0 => 'Filament\\Models\\Contracts\\FilamentUser',
+        1 => 'Filament\\Models\\Contracts\\HasAvatar',
+        2 => 'Filament\\Models\\Contracts\\HasName',
       ),
        'usedTraits' => 
       array (
@@ -10969,6 +13585,10 @@ return [
              'uses' => 
             array (
               'user' => 'App\\Models\\User',
+              'filamentuser' => 'Filament\\Models\\Contracts\\FilamentUser',
+              'hasavatar' => 'Filament\\Models\\Contracts\\HasAvatar',
+              'hasname' => 'Filament\\Models\\Contracts\\HasName',
+              'panel' => 'Filament\\Panel',
               'fillable' => 'Illuminate\\Database\\Eloquent\\Attributes\\Fillable',
               'hidden' => 'Illuminate\\Database\\Eloquent\\Attributes\\Hidden',
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
@@ -10998,6 +13618,73 @@ return [
               array (
               ),
             )),
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'canAccessPanel',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'panel',
+               'type' => 'Filament\\Panel',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getFilamentName',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getFilamentAvatarUrl',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
           ),
         )),
       ),
@@ -11041,10 +13728,15 @@ return [
           'user' => 'App\\Models\\User',
           'fillable' => 'Illuminate\\Database\\Eloquent\\Attributes\\Fillable',
           'hidden' => 'Illuminate\\Database\\Eloquent\\Attributes\\Hidden',
+          'observedby' => 'Illuminate\\Database\\Eloquent\\Attributes\\ObservedBy',
+          'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
           'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
           'carbon' => 'Illuminate\\Support\\Carbon',
           'buyerfactory' => 'Modules\\Users\\Database\\Factories\\BuyerFactory',
+          'buyerobserver' => 'Modules\\Users\\Observers\\BuyerObserver',
           'accountstate' => 'Modules\\Users\\States\\AccountState',
+          'logsactivity' => 'Spatie\\Activitylog\\Models\\Concerns\\LogsActivity',
+          'logoptions' => 'Spatie\\Activitylog\\Support\\LogOptions',
         ),
          'constUses' => 
         array (
@@ -11059,6 +13751,7 @@ return [
        'usedTraits' => 
       array (
         0 => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+        1 => 'Spatie\\Activitylog\\Models\\Concerns\\LogsActivity',
       ),
        'traitUseAdaptations' => 
       array (
@@ -11066,6 +13759,24 @@ return [
        'statements' => 
       array (
         0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getActivitylogOptions',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Spatie\\Activitylog\\Support\\LogOptions',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'casts',
            'phpDoc' => 
@@ -11081,10 +13792,15 @@ return [
               'user' => 'App\\Models\\User',
               'fillable' => 'Illuminate\\Database\\Eloquent\\Attributes\\Fillable',
               'hidden' => 'Illuminate\\Database\\Eloquent\\Attributes\\Hidden',
+              'observedby' => 'Illuminate\\Database\\Eloquent\\Attributes\\ObservedBy',
+              'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'carbon' => 'Illuminate\\Support\\Carbon',
               'buyerfactory' => 'Modules\\Users\\Database\\Factories\\BuyerFactory',
+              'buyerobserver' => 'Modules\\Users\\Observers\\BuyerObserver',
               'accountstate' => 'Modules\\Users\\States\\AccountState',
+              'logsactivity' => 'Spatie\\Activitylog\\Models\\Concerns\\LogsActivity',
+              'logoptions' => 'Spatie\\Activitylog\\Support\\LogOptions',
             ),
              'constUses' => 
             array (
@@ -11111,10 +13827,67 @@ return [
             )),
           ),
         )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'name',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @return Attribute<string, never>
+     */',
+             'namespace' => 'Modules\\Users\\Models',
+             'uses' => 
+            array (
+              'user' => 'App\\Models\\User',
+              'fillable' => 'Illuminate\\Database\\Eloquent\\Attributes\\Fillable',
+              'hidden' => 'Illuminate\\Database\\Eloquent\\Attributes\\Hidden',
+              'observedby' => 'Illuminate\\Database\\Eloquent\\Attributes\\ObservedBy',
+              'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'carbon' => 'Illuminate\\Support\\Carbon',
+              'buyerfactory' => 'Modules\\Users\\Database\\Factories\\BuyerFactory',
+              'buyerobserver' => 'Modules\\Users\\Observers\\BuyerObserver',
+              'accountstate' => 'Modules\\Users\\States\\AccountState',
+              'logsactivity' => 'Spatie\\Activitylog\\Models\\Concerns\\LogsActivity',
+              'logoptions' => 'Spatie\\Activitylog\\Support\\LogOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'Override',
+               'args' => 
+              array (
+              ),
+            )),
+          ),
+        )),
       ),
        'attributes' => 
       array (
         0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+           'name' => 'Illuminate\\Database\\Eloquent\\Attributes\\ObservedBy',
+           'args' => 
+          array (
+            0 => '\\Modules\\Users\\Observers\\BuyerObserver::class',
+          ),
+        )),
+        1 => 
         \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
            'name' => 'Illuminate\\Database\\Eloquent\\Attributes\\Fillable',
            'args' => 
@@ -11122,7 +13895,7 @@ return [
             0 => '[\'username\', \'display_name\', \'email\', \'password\', \'suspended_at\', \'suspension_reason\', \'last_login_at\', \'last_login_ip\']',
           ),
         )),
-        1 => 
+        2 => 
         \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
            'name' => 'Illuminate\\Database\\Eloquent\\Attributes\\Hidden',
            'args' => 
@@ -11131,6 +13904,257 @@ return [
             1 => '\'remember_token\'',
           ),
         )),
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/Observers/BuyerObserver.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\Observers\\BuyerObserver',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'created',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Handle the Buyer "created" event.
+     */',
+             'namespace' => 'Modules\\Users\\Observers',
+             'uses' => 
+            array (
+              'configurenewbuyer' => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+              'buyer' => 'Modules\\Users\\Models\\Buyer',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'updated',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Handle the Buyer "updated" event.
+     */',
+             'namespace' => 'Modules\\Users\\Observers',
+             'uses' => 
+            array (
+              'configurenewbuyer' => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+              'buyer' => 'Modules\\Users\\Models\\Buyer',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'deleted',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Handle the Buyer "deleted" event.
+     */',
+             'namespace' => 'Modules\\Users\\Observers',
+             'uses' => 
+            array (
+              'configurenewbuyer' => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+              'buyer' => 'Modules\\Users\\Models\\Buyer',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'restored',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Handle the Buyer "restored" event.
+     */',
+             'namespace' => 'Modules\\Users\\Observers',
+             'uses' => 
+            array (
+              'configurenewbuyer' => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+              'buyer' => 'Modules\\Users\\Models\\Buyer',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'forceDeleted',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Handle the Buyer "force deleted" event.
+     */',
+             'namespace' => 'Modules\\Users\\Observers',
+             'uses' => 
+            array (
+              'configurenewbuyer' => 'Modules\\Users\\Jobs\\ConfigureNewBuyer',
+              'buyer' => 'Modules\\Users\\Models\\Buyer',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'buyer',
+               'type' => 'Modules\\Users\\Models\\Buyer',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
       ),
     )),
   ),
@@ -11530,6 +14554,131 @@ return [
               array (
               ),
             )),
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/ghiath/Desktop/sites/fluxwork/modules/users/src/UsersPlugin.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Users\\UsersPlugin',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'Filament\\Contracts\\Plugin',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getId',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'make',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'static',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'register',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'panel',
+               'type' => 'Filament\\Panel',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'boot',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'panel',
+               'type' => 'Filament\\Panel',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+               'phpDoc' => NULL,
+               'flags' => 0,
+            )),
+          ),
+           'attributes' => 
+          array (
           ),
         )),
       ),
