@@ -2,9 +2,11 @@
 
 namespace Database\Seeders;
 
+use BezhanSalleh\FilamentShield\Support\Utils;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use BezhanSalleh\FilamentShield\Support\Utils;
+use Spatie\Permission\Models\Role;
 use Spatie\Permission\PermissionRegistrar;
 
 class ShieldSeeder extends Seeder
@@ -13,32 +15,9 @@ class ShieldSeeder extends Seeder
     {
         app()[PermissionRegistrar::class]->forgetCachedPermissions();
 
-        $tenants = '[]';
-        $users = '[]';
-        $userTenantPivot = '[]';
         $rolesWithPermissions = '[{"name":"admin","guard_name":"admin","permissions":["ViewAny:Admin","View:Admin","Create:Admin","Update:Admin","Delete:Admin","DeleteAny:Admin","Restore:Admin","ForceDelete:Admin","ForceDeleteAny:Admin","RestoreAny:Admin","Replicate:Admin","Reorder:Admin","ViewAny:Buyer","View:Buyer","Create:Buyer","Update:Buyer","Delete:Buyer","DeleteAny:Buyer","Restore:Buyer","ForceDelete:Buyer","ForceDeleteAny:Buyer","RestoreAny:Buyer","Replicate:Buyer","Reorder:Buyer","ViewAny:Role","View:Role","Create:Role","Update:Role","Delete:Role","DeleteAny:Role","Restore:Role","ForceDelete:Role","ForceDeleteAny:Role","RestoreAny:Role","Replicate:Role","Reorder:Role"]},{"name":"buyer","guard_name":"web","permissions":["ViewAny:Buyer","View:Buyer","Create:Buyer","Update:Buyer"]}]';
-        $directPermissions = '[]';
 
-        // 1. Seed tenants first (if present)
-        if (! blank($tenants) && $tenants !== '[]') {
-            static::seedTenants($tenants);
-        }
-
-        // 2. Seed roles with permissions
         static::makeRolesWithPermissions($rolesWithPermissions);
-
-        // 3. Seed direct permissions
-        static::makeDirectPermissions($directPermissions);
-
-        // 4. Seed users with their roles/permissions (if present)
-        if (! blank($users) && $users !== '[]') {
-            static::seedUsers($users);
-        }
-
-        // 5. Seed user-tenant pivot (if present)
-        if (! blank($userTenantPivot) && $userTenantPivot !== '[]') {
-            static::seedUserTenantPivot($userTenantPivot);
-        }
 
         $this->command->info('Shield Seeding Completed.');
     }
@@ -69,7 +48,7 @@ class ShieldSeeder extends Seeder
         }
 
         $userModel = 'App\Models\User';
-        $tenancyEnabled = false;
+        $tenancyEnabled = Utils::isTenancyEnabled();
 
         foreach ($userData as $data) {
             // Extract role/permission data before creating user
@@ -145,12 +124,12 @@ class ShieldSeeder extends Seeder
             return;
         }
 
-        /** @var \Illuminate\Database\Eloquent\Model $roleModel */
+        /** @var class-string<Role> $roleModel */
         $roleModel = Utils::getRoleModel();
-        /** @var \Illuminate\Database\Eloquent\Model $permissionModel */
+        /** @var class-string<Model> $permissionModel */
         $permissionModel = Utils::getPermissionModel();
 
-        $tenancyEnabled = false;
+        $tenancyEnabled = Utils::isTenancyEnabled();
         $teamForeignKey = 'team_id';
 
         foreach ($rolePlusPermissions as $rolePlusPermission) {
@@ -171,15 +150,20 @@ class ShieldSeeder extends Seeder
                 $roleData[$teamForeignKey] = $tenantId;
             }
 
+            /** @var Role $role */
             $role = $roleModel::firstOrCreate($roleData);
 
             if (! blank($rolePlusPermission['permissions'])) {
-                $permissionModels = collect($rolePlusPermission['permissions'])
-                    ->map(fn ($permission) => $permissionModel::firstOrCreate([
+                /** @var list<string> $permissionNames */
+                $permissionNames = $rolePlusPermission['permissions'];
+
+                $permissionModels = [];
+                foreach ($permissionNames as $permission) {
+                    $permissionModels[] = $permissionModel::firstOrCreate([
                         'name' => $permission,
                         'guard_name' => $rolePlusPermission['guard_name'],
-                    ]))
-                    ->all();
+                    ]);
+                }
 
                 $role->syncPermissions($permissionModels);
             }
@@ -192,7 +176,7 @@ class ShieldSeeder extends Seeder
             return;
         }
 
-        /** @var \Illuminate\Database\Eloquent\Model $permissionModel */
+        /** @var class-string<Model> $permissionModel */
         $permissionModel = Utils::getPermissionModel();
 
         foreach ($permissions as $permission) {

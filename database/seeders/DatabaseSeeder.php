@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Modules\Users\Database\Seeders\AdminSeeder;
 use Modules\Users\Database\Seeders\BuyerSeeder;
-use Database\Seeders\ShieldSeeder;
 
 class DatabaseSeeder extends Seeder
 {
