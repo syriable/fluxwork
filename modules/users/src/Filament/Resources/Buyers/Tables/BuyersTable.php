@@ -31,9 +31,9 @@ class BuyersTable
                 EditAction::make(),
                 ActivitylogTimelineAction::make()
                     ->modifyActivitylogTimelineUsing(fn (ActivitylogTimeline $activitylogTimeline) => $activitylogTimeline
-                        ->causerUrl(fn (?Model $causer): ?string => match (true) {
-                            $causer instanceof Admin => AdminResource::getUrl('edit', ['record' => $causer]),
-                            $causer instanceof Buyer => BuyerResource::getUrl('edit', ['record' => $causer]),
+                        ->causerUrl(fn (?Model $model): ?string => match (true) {
+                            $model instanceof Admin => AdminResource::getUrl('edit', ['record' => $model]),
+                            $model instanceof Buyer => BuyerResource::getUrl('edit', ['record' => $model]),
                             default => null,
                         })
                         ->causerNames([
