@@ -16,7 +16,7 @@ class Password
             ->autocomplete('new-password')
             ->revealable()
             ->confirmed()
-            ->visible(fn($operation) => $operation === 'create')
+            ->visible(fn ($operation) => $operation === 'create')
             ->maxLength(255);
     }
 }

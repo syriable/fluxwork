@@ -24,6 +24,15 @@ return [
                     'password' => [
                         'label' => 'Password',
                     ],
+                    'locale' => [
+                        'label' => 'Locale',
+                    ],
+                    'timezone' => [
+                        'label' => 'Timezone',
+                    ],
+                    'account_state' => [
+                        'label' => 'Account State',
+                    ],
                 ],
             ],
         ],

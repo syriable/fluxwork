@@ -16,7 +16,7 @@ class ConfirmPassword
             ->autocomplete('new-password')
             ->revealable()
             ->dehydrated(false)
-            ->visible(fn($operation) => $operation === 'create')
+            ->visible(fn ($operation) => $operation === 'create')
             ->maxLength(255);
     }
 }

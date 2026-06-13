@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'model_label' => 'Admin',
     'model_plural_label' => 'Admins',
@@ -12,6 +14,21 @@ return [
                 'schema' => [
                     'username' => [
                         'label' => 'Username',
+                    ],
+                    'display_name' => [
+                        'label' => 'Display Name',
+                    ],
+                    'email' => [
+                        'label' => 'Email',
+                    ],
+                    'locale' => [
+                        'label' => 'Locale',
+                    ],
+                    'timezone' => [
+                        'label' => 'Timezone',
+                    ],
+                    'account_state' => [
+                        'label' => 'Account State',
                     ],
                 ],
             ],

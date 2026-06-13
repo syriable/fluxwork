@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Users\Filament\Resources\Admins\Schemas;
 
-use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Grid;
 use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Schema;
+use Modules\Users\Filament\Resources\Components\Form;
+
 class AdminForm
 {
     public static function configure(Schema $schema): Schema
@@ -16,9 +18,18 @@ class AdminForm
                 Section::make()
                     ->key('details')
                     ->schema([
-                        TextInput::make('username')
-                            ->required()
-                            ->unique(ignoreRecord: true),
+                        Grid::make()
+                            ->columns(3)
+                            ->schema([
+                                Form\Username::make(),
+                                Form\DisplayName::make(),
+                                Form\Email::make(),
+                                Form\Locale::make(),
+                                Form\Timezone::make(),
+                                Form\AccountState::make(),
+                                Form\Password::make(),
+                                Form\ConfirmPassword::make(),
+                            ]),
                     ]),
             ]);
     }
