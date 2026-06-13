@@ -13,7 +13,10 @@
 			"Modules\\Users\\Tests\\": "tests/",
 			"Modules\\Users\\Database\\Factories\\": "database/factories/",
 			"Modules\\Users\\Database\\Seeders\\": "database/seeders/"
-		}
+		},
+		"files": [
+			"src/helpers.php"
+		]
 	},
 	"minimum-stability": "stable",
 	"extra": {
