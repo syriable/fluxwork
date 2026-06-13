@@ -50,6 +50,7 @@ abstract class User extends Authenticatable implements HasMedia
             ->singleFile();
     }
 
+    #[\Override]
     public function getRouteKeyName(): string
     {
         return 'username';
