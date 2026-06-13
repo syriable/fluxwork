@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Users\Filament\Resources\Admins;
 
-use BackedEnum;
 use Filament\Schemas\Schema;
-use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
 use Modules\Users\Filament\Resources\Admins\Pages\CreateAdmin;
 use Modules\Users\Filament\Resources\Admins\Pages\EditAdmin;

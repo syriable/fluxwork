@@ -22,7 +22,7 @@ class AssignAdminRole
     public function handle(Admin $admin, Closure $next): mixed
     {
         $role = Role::findOrCreate(self::ROLE, Guard::getDefaultName($admin::class));
-   
+
         if (! $admin->hasRole($role)) {
             $admin->assignRole($role);
 

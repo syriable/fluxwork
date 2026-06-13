@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Users\Filament\Resources\Buyers;
 
-use BackedEnum;
 use Filament\Schemas\Schema;
-use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
 use Modules\Users\Filament\Resources\Buyers\Pages\CreateBuyer;
 use Modules\Users\Filament\Resources\Buyers\Pages\EditBuyer;
