@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
+use Rector\Naming\Rector\ClassMethod\RenameParamToMatchTypeRector;
 
 return RectorConfig::configure()
     ->withPaths([
@@ -24,4 +25,7 @@ return RectorConfig::configure()
         naming: true,
         earlyReturn: true,
         phpunitCodeQuality: true,
-    );
+    )
+    ->withSkip([
+        RenameParamToMatchTypeRector::class,
+    ]);
