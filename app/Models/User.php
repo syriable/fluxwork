@@ -47,7 +47,8 @@ abstract class User extends Authenticatable implements HasMedia
     {
         $this->addMediaCollection('avatar')
             ->useDisk('public')
-            ->singleFile();
+            ->singleFile()
+            ->useFallbackUrl('https://ui-avatars.com/api/?format=svg&background=random&rounded=true&size=128&name='.urlencode($this->display_name));
     }
 
     #[\Override]
