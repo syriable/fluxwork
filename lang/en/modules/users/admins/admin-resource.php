@@ -46,5 +46,19 @@ return [
                 ],
             ],
         ],
+        'columns' => [
+            'display_name' => [
+                'label' => 'Display Name',
+            ],
+            'email' => [
+                'label' => 'Email',
+            ],
+            'account_state' => [
+                'label' => 'Account State',
+            ],
+            'roles->name' => [
+                'label' => 'Roles >Name',
+            ],
+        ],
     ],
 ];
