@@ -8,7 +8,7 @@
     $widthKey = $resolvedWidth instanceof \BackedEnum ? $resolvedWidth->value : $resolvedWidth;
 @endphp
 
-<div {{ $attributes->class(['fire-simple-page']) }}>
+<div {{ $attributes->class(['fire-simple-page flex items-center min-h-screen']) }}>
     <div @class([
         'mx-auto w-full',
         match ($widthKey) {
@@ -28,7 +28,7 @@
         {{ $slot }}
     </div>
 
-    @if (!$this instanceof \Filament\Tables\Contracts\HasTable)
+    @if (! ($livewire instanceof \Filament\Tables\Contracts\HasTable))
         <x-filament-actions::modals />
     @endif
 

@@ -19,5 +19,7 @@ class BuyerSeeder extends Seeder
             'display_name' => 'Buyer User',
             'email' => 'buyer@example.com',
         ]);
+
+        Buyer::factory(20)->create();
     }
 }
