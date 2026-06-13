@@ -1,5 +1,10 @@
 <?php
 
+declare(strict_types=1);
+use BezhanSalleh\FilamentShield\Resources\Roles\RoleResource;
+use Modules\Users\Filament\Resources\Admins\AdminResource;
+use Modules\Users\Filament\Resources\Buyers\BuyerResource;
+
 return [
     'form' => [
         'components' => [
@@ -13,10 +18,10 @@ return [
                             'Role' => [
                                 'heading' => 'Role',
                                 'schema' => [
-                                    'BezhanSalleh\\FilamentShield\\Resources\\Roles\\RoleResource' => [
+                                    RoleResource::class => [
                                         'label' => 'Roles',
                                     ],
-                                    'Syriable\\Filament\\Plugins\\Utilities\\Filament\\Resources\\Roles\\RoleResource' => [
+                                    Syriable\Filament\Plugins\Utilities\Filament\Resources\Roles\RoleResource::class => [
                                         'label' => 'Roles',
                                     ],
                                 ],
@@ -24,7 +29,7 @@ return [
                             'Admin' => [
                                 'heading' => 'Admin',
                                 'schema' => [
-                                    'Modules\\Users\\Filament\\Resources\\Admins\\AdminResource' => [
+                                    AdminResource::class => [
                                         'label' => 'Admins',
                                     ],
                                 ],
@@ -32,7 +37,7 @@ return [
                             'Buyer' => [
                                 'heading' => 'Buyer',
                                 'schema' => [
-                                    'Modules\\Users\\Filament\\Resources\\Buyers\\BuyerResource' => [
+                                    BuyerResource::class => [
                                         'label' => 'Buyers',
                                     ],
                                 ],
