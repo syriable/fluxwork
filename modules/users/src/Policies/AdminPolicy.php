@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Users\Policies;
 
+use Illuminate\Auth\Access\HandlesAuthorization;
 use Illuminate\Foundation\Auth\User as AuthUser;
 use Modules\Users\Models\Admin;
-use Illuminate\Auth\Access\HandlesAuthorization;
 
 class AdminPolicy
 {
     use HandlesAuthorization;
-    
+
     public function viewAny(AuthUser $authUser): bool
     {
         return ! filament()->isServing()
@@ -22,8 +22,8 @@ class AdminPolicy
     public function view(AuthUser $authUser, Admin $admin): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('View:Admin')
-            : $authUser->can('View:Admin') && $authUser->is($admin);
+            ? $authUser->can('View:Admin') && $authUser->is($admin)
+            : $authUser->can('View:Admin');
     }
 
     public function create(AuthUser $authUser): bool
@@ -36,15 +36,15 @@ class AdminPolicy
     public function update(AuthUser $authUser, Admin $admin): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Update:Admin')
-            : $authUser->can('Update:Admin') && $authUser->is($admin);
+            ? $authUser->can('Update:Admin') && $authUser->is($admin)
+            : $authUser->can('Update:Admin');
     }
 
     public function delete(AuthUser $authUser, Admin $admin): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Delete:Admin')
-            : $authUser->can('Delete:Admin') && $authUser->is($admin);
+            ? $authUser->can('Delete:Admin') && $authUser->is($admin)
+            : $authUser->can('Delete:Admin');
     }
 
     public function deleteAny(AuthUser $authUser): bool
@@ -57,15 +57,15 @@ class AdminPolicy
     public function restore(AuthUser $authUser, Admin $admin): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Restore:Admin')
-            : $authUser->can('Restore:Admin') && $authUser->is($admin);
+            ? $authUser->can('Restore:Admin') && $authUser->is($admin)
+            : $authUser->can('Restore:Admin');
     }
 
     public function forceDelete(AuthUser $authUser, Admin $admin): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('ForceDelete:Admin')
-            : $authUser->can('ForceDelete:Admin') && $authUser->is($admin);
+            ? $authUser->can('ForceDelete:Admin') && $authUser->is($admin)
+            : $authUser->can('ForceDelete:Admin');
     }
 
     public function forceDeleteAny(AuthUser $authUser): bool
@@ -85,8 +85,8 @@ class AdminPolicy
     public function replicate(AuthUser $authUser, Admin $admin): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Replicate:Admin')
-            : $authUser->can('Replicate:Admin') && $authUser->is($admin);
+            ? $authUser->can('Replicate:Admin') && $authUser->is($admin)
+            : $authUser->can('Replicate:Admin');
     }
 
     public function reorder(AuthUser $authUser): bool
@@ -95,5 +95,4 @@ class AdminPolicy
             ? $authUser->can('Reorder:Admin')
             : $authUser->can('Reorder:Admin');
     }
-
 }

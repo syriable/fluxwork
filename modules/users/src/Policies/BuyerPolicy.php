@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Users\Policies;
 
+use Illuminate\Auth\Access\HandlesAuthorization;
 use Illuminate\Foundation\Auth\User as AuthUser;
 use Modules\Users\Models\Buyer;
-use Illuminate\Auth\Access\HandlesAuthorization;
 
 class BuyerPolicy
 {
     use HandlesAuthorization;
-    
+
     public function viewAny(AuthUser $authUser): bool
     {
         return ! filament()->isServing()
@@ -22,8 +22,8 @@ class BuyerPolicy
     public function view(AuthUser $authUser, Buyer $buyer): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('View:Buyer')
-            : $authUser->can('View:Buyer') && $authUser->is($buyer);
+            ? $authUser->can('View:Buyer') && $authUser->is($buyer)
+            : $authUser->can('View:Buyer');
     }
 
     public function create(AuthUser $authUser): bool
@@ -36,15 +36,15 @@ class BuyerPolicy
     public function update(AuthUser $authUser, Buyer $buyer): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Update:Buyer')
-            : $authUser->can('Update:Buyer') && $authUser->is($buyer);
+            ? $authUser->can('Update:Buyer') && $authUser->is($buyer)
+            : $authUser->can('Update:Buyer');
     }
 
     public function delete(AuthUser $authUser, Buyer $buyer): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Delete:Buyer')
-            : $authUser->can('Delete:Buyer') && $authUser->is($buyer);
+            ? $authUser->can('Delete:Buyer') && $authUser->is($buyer)
+            : $authUser->can('Delete:Buyer');
     }
 
     public function deleteAny(AuthUser $authUser): bool
@@ -57,15 +57,15 @@ class BuyerPolicy
     public function restore(AuthUser $authUser, Buyer $buyer): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Restore:Buyer')
-            : $authUser->can('Restore:Buyer') && $authUser->is($buyer);
+            ? $authUser->can('Restore:Buyer') && $authUser->is($buyer)
+            : $authUser->can('Restore:Buyer');
     }
 
     public function forceDelete(AuthUser $authUser, Buyer $buyer): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('ForceDelete:Buyer')
-            : $authUser->can('ForceDelete:Buyer') && $authUser->is($buyer);
+            ? $authUser->can('ForceDelete:Buyer') && $authUser->is($buyer)
+            : $authUser->can('ForceDelete:Buyer');
     }
 
     public function forceDeleteAny(AuthUser $authUser): bool
@@ -85,8 +85,8 @@ class BuyerPolicy
     public function replicate(AuthUser $authUser, Buyer $buyer): bool
     {
         return ! filament()->isServing()
-            ? $authUser->can('Replicate:Buyer')
-            : $authUser->can('Replicate:Buyer') && $authUser->is($buyer);
+            ? $authUser->can('Replicate:Buyer') && $authUser->is($buyer)
+            : $authUser->can('Replicate:Buyer');
     }
 
     public function reorder(AuthUser $authUser): bool
@@ -95,5 +95,4 @@ class BuyerPolicy
             ? $authUser->can('Reorder:Buyer')
             : $authUser->can('Reorder:Buyer');
     }
-
 }
